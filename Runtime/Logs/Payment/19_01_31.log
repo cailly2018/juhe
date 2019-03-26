@@ -1,0 +1,37 @@
+[ 2019-01-31T21:18:28+08:00 ] 127.0.0.1 /Payment_YRTpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003353s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 127 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 128 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 129 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 130 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 131 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 132 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 133 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 134 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 135 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Payment\Controller\YRTpayDfController.class.php 第 136 行.
+
+[ 2019-01-31T21:19:19+08:00 ] 127.0.0.1 /Payment_Dfpay_clean15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0029s ]
+SQL: DELETE FROM `pay_order` WHERE `pay_applydate` <= 1547644759 [ RunTime:0.1276s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0018s ]
+SQL: DELETE FROM `pay_wttklist` WHERE `sqdatetime` <= '2019-01-16 21:19:19' [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0027s ]
+SQL: DELETE FROM `pay_df_api_order` WHERE `create_time` <= 1547644759 [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002115s ]
+

@@ -1,0 +1,95 @@
+[ 2019-02-19T16:04:02+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004937s ]
+
+[ 2019-02-19T16:04:11+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+
+[ 2019-02-19T16:06:49+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005861s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 0  [ RunTime:0.0024s ]
+
+[ 2019-02-19T16:07:46+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003191s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 0  [ RunTime:0.0006s ]
+
+[ 2019-02-19T16:07:55+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 0  [ RunTime:0.0007s ]
+
+[ 2019-02-19T16:08:11+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-02-19T16:08:21+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006233s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-02-19T16:09:08+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-02-19T16:09:25+08:00 ] 127.0.0.1 /Pay_Pay_getNotifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002492s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+

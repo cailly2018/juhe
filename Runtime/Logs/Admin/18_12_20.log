@@ -1,0 +1,312 @@
+[ 2018-12-20T19:59:34+08:00 ] 127.0.0.1 /manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005632s ]
+
+[ 2018-12-20T19:59:35+08:00 ] 127.0.0.1 /manage_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003034s ]
+
+[ 2018-12-20T19:59:35+08:00 ] 127.0.0.1 /manage_Login_verifycode.html?t=1545307175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2018-12-20T19:59:47+08:00 ] 127.0.0.1 /manage_Login_checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005269s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `pay_admin` WHERE `username` = 'admin' AND `password` = '5c19392c28bd0d4b46527ffe32306b28' LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0026s ]
+SQL: SELECT `login_ip` FROM `pay_websiteconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0024s ]
+SQL: INSERT INTO `pay_loginrecord` (`userid`,`logindatetime`,`loginip`,`loginaddress`,`type`) VALUES ('1','2018-12-20 19:59:47','127.0.0.1','本机地址-','1') [ RunTime:0.0051s ]
+SQL: UPDATE `pay_admin` SET `session_random`='yfQWF0Gr8YuKK5SJGKLQUFsDJLkyZZBy' WHERE `username` = 'admin' [ RunTime:0.0022s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-12-20T19:59:48+08:00 ] 127.0.0.1 /manage_Index_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0009s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '1'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','120','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','75','20','21','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT `withdraw` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001939s ]
+
+[ 2018-12-20T19:59:48+08:00 ] 127.0.0.1 /manage_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0023s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '1'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','120','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','75','20','21','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0156s ]
+SQL: SELECT sum(`pay_amount`) amount,sum(`pay_poundage`) rate,sum(`pay_actualamount`) total FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1545235200 AND 1545321600 LIMIT 1   [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1545235200 AND 1545321600 LIMIT 1   [ RunTime:0.0134s ]
+SQL: select COUNT(id) as num,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(FROM_UNIXTIME(pay_successdate,'%Y-%m-%d')) and pay_successdate>=1544702388;  [ RunTime:0.0202s ]
+SQL: select FROM_UNIXTIME(pay_successdate,'%Y年-%m月') AS month,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and pay_successdate>=1514736000 GROUP BY month;   [ RunTime:0.0164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2018-12-20T19:59:59+08:00 ] 127.0.0.1 /manage_PayForAnother_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003843s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0146s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0037s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '1'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','120','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','75','20','21','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_pay_for_another` LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pay_pay_for_another` LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 64 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 68 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 64 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 68 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 64 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 68 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 64 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 68 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 64 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\c1dfebf609fb69e91ee1f10455818bc9.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2018-12-20T20:00:05+08:00 ] 127.0.0.1 /manage_PayForAnother_operationSupplier.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0231s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '1'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','120','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','75','20','21','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [2] Use of undefined constant rate_type - assumed 'rate_type' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 126 行.
+NOTIC: [2] Use of undefined constant rate_type - assumed 'rate_type' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 127 行.
+NOTIC: [2] Use of undefined constant is_default - assumed 'is_default' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 134 行.
+NOTIC: [2] Use of undefined constant is_default - assumed 'is_default' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 135 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 142 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2018-12-20T20:00:34+08:00 ] 127.0.0.1 /manage_PayForAnother_operationSupplier.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003228s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0010s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '1'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','120','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','75','20','21','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] Use of undefined constant rate_type - assumed 'rate_type' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 126 行.
+NOTIC: [2] Use of undefined constant rate_type - assumed 'rate_type' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 127 行.
+NOTIC: [2] Use of undefined constant is_default - assumed 'is_default' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 134 行.
+NOTIC: [2] Use of undefined constant is_default - assumed 'is_default' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 135 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 142 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\d1ebfb1e4e6bb01336aa143643694c02.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+

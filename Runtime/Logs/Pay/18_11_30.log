@@ -1,0 +1,129 @@
+[ 2018-11-30T18:20:28+08:00 ] 127.0.0.1 /Pay_Pay_bufa_TransID_20181130122823555654_tongdao_YYpayWap_buname_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT `pay_status` FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 732 行.
+NOTIC: [8] Undefined index: transaction_id C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 733 行.
+NOTIC: [8] Undefined index: datetime C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 734 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-30T18:21:00+08:00 ] 127.0.0.1 /Pay_Pay_bufa_TransID_20181130122823555654_tongdao_YYpayWap_buname_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0013s ]
+SQL: SELECT `pay_status` FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0078s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 732 行.
+NOTIC: [8] Undefined index: transaction_id C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 733 行.
+NOTIC: [8] Undefined index: datetime C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 734 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 20112 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-30T18:21:05+08:00 ] 127.0.0.1 /Pay_Pay_bufa_TransID_20181130122823555654_tongdao_YYpayWap_buname_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT `pay_status` FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 732 行.
+NOTIC: [8] Undefined index: transaction_id C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 733 行.
+NOTIC: [8] Undefined index: datetime C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 734 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 20112 LIMIT 1   [ RunTime:0.0143s ]
+
+[ 2018-11-30T18:21:18+08:00 ] 127.0.0.1 /Pay_Pay_bufa_TransID_20181130122823555654_tongdao_YYpayWap_buname_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT `pay_status` FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 732 行.
+NOTIC: [8] Undefined index: transaction_id C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 733 行.
+NOTIC: [8] Undefined index: datetime C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 734 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-30T18:22:21+08:00 ] 127.0.0.1 /Pay_Pay_bufa_TransID_20181130122823555654_tongdao_YYpayWap_buname_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT `pay_status` FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 732 行.
+NOTIC: [8] Undefined index: transaction_id C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 733 行.
+NOTIC: [8] Undefined index: datetime C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 734 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 704 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 706 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 712 行.
+
+[ 2018-11-30T18:25:43+08:00 ] 127.0.0.1 /Pay_Pay_bufa_TransID_20181130122823555654_tongdao_YYpayWap_buname_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0039s ]
+SQL: SELECT `pay_status` FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 732 行.
+NOTIC: [8] Undefined index: datetime C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 733 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 704 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 706 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 712 行.
+
+[ 2018-11-30T19:00:11+08:00 ] 127.0.0.1 /Pay_Pay_bufa_TransID_20181130122823555654_tongdao_YYpayWap_buname_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0013s ]
+SQL: SELECT `pay_status` FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 721 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `pay_order` SET `is_bu`='1',`bu_admin_name`='admin',`bu_time`='1543575611' WHERE `pay_orderid` = '20181130122823555654' [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181130122823555654' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\PayController.class.php 第 406 行.
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+

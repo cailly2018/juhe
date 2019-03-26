@@ -1,0 +1,11 @@
+[ 2018-12-12T10:43:47+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+

@@ -1,0 +1,6 @@
+* * * * * sh 根目录路径/shell/posturl.sh
+* * * * * sleep 10; sh 根目录路径/shell/posturl.sh
+* * * * * sleep 20; sh 根目录路径/shell/posturl.sh
+* * * * * sleep 30; sh 根目录路径/shell/posturl.sh
+* * * * * sleep 40; sh 根目录路径/shell/posturl.sh
+* * * * * sleep 50; sh 根目录路径/shell/posturl.sh

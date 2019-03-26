@@ -1,0 +1,1633 @@
+[ 2019-02-25T08:53:09+08:00 ] 127.0.0.1 /agent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [2] Use of undefined constant agent_cate - assumed 'agent_cate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 53 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 58 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 103 行.
+NOTIC: [2] Use of undefined constant df_api - assumed 'df_api' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 117 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 120 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 128 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 142 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2019-02-25T08:53:10+08:00 ] 127.0.0.1 /agent_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT SUM( pay_actualamount ) AS total, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10111  GROUP BY DATETIME [ RunTime:0.0354s ]
+SQL: SELECT COUNT( id ) AS num, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10111  GROUP BY DATETIME [ RunTime:0.0322s ]
+NOTIC: [8] Undefined variable: category C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: dataone C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: datatwo C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pay_article` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `pay_article` WHERE `status` = 1 AND `groupid` IN ('0','2') ORDER BY id desc LIMIT 2   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_loginrecord` WHERE `userid` = 111 ORDER BY id desc LIMIT 2   [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0332s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0332s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0308s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0343s ]
+NOTIC: [8] Undefined variable: ipItem C:\work\juhe\Application\User\Controller\IndexController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [2] Illegal string offset 'loginip' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'loginaddress' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'logindatetime' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 51 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 104 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 105 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2019-02-25T08:53:28+08:00 ] 127.0.0.1 /agent_Agent_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003429s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `pay_member` WHERE `parentid` = 111  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0007s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0358s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_memberid` IN (10112) ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined index: memberid C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 43 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 47 行.
+NOTIC: [8] Undefined index: body C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 51 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 55 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 59 行.
+NOTIC: [8] Undefined variable: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 74 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 126 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 126 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 127 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 127 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 128 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 128 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 129 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 129 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 130 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 130 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 131 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002888s ]
+
+[ 2019-02-25T08:53:30+08:00 ] 127.0.0.1 /agent_Agent_order_status_2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003695s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `pay_member` WHERE `parentid` = 111  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0306s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` = 2 LIMIT 1   [ RunTime:0.0334s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` = 2 ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: memberid C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 43 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 47 行.
+NOTIC: [8] Undefined index: body C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 51 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 55 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 59 行.
+NOTIC: [8] Undefined variable: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 74 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 126 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 126 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 127 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 127 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 128 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 128 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 129 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 129 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 130 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 130 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 131 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2019-02-25T08:53:31+08:00 ] 127.0.0.1 /agent_Agent_order_status_4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `pay_member` WHERE `parentid` = 111  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0008s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0184s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0339s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0322s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_memberid` IN (10112) AND `pay_status` = 0 ORDER BY `id` desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: memberid C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 43 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 47 行.
+NOTIC: [8] Undefined index: body C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 51 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 55 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 59 行.
+NOTIC: [8] Undefined variable: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 74 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 97 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 100 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 101 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 108 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 114 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 126 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 126 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 127 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 127 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 128 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 128 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 129 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 129 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 130 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 130 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 131 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\8c47b39827cad46a9fffcd6b834ceb6f.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2019-02-25T09:04:14+08:00 ] 127.0.0.1 /agent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [2] Use of undefined constant agent_cate - assumed 'agent_cate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 53 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 58 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 103 行.
+NOTIC: [2] Use of undefined constant df_api - assumed 'df_api' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 117 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 120 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 128 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 142 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2019-02-25T09:04:14+08:00 ] 127.0.0.1 /agent_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0008s ]
+SQL: SELECT SUM( pay_actualamount ) AS total, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10111  GROUP BY DATETIME [ RunTime:0.0358s ]
+SQL: SELECT COUNT( id ) AS num, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10111  GROUP BY DATETIME [ RunTime:0.0392s ]
+NOTIC: [8] Undefined variable: category C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: dataone C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: datatwo C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pay_article` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `pay_article` WHERE `status` = 1 AND `groupid` IN ('0','2') ORDER BY id desc LIMIT 2   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_loginrecord` WHERE `userid` = 111 ORDER BY id desc LIMIT 2   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0355s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0367s ]
+NOTIC: [8] Undefined variable: ipItem C:\work\juhe\Application\User\Controller\IndexController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [2] Illegal string offset 'loginip' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'loginaddress' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'logindatetime' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 51 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 104 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 105 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2019-02-25T09:04:16+08:00 ] 127.0.0.1 /agent_Agent_member.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 111 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_member` WHERE `groupid` <> 1 AND `parentid` = 111 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_member` WHERE `groupid` <> 1 AND `parentid` = 111 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: model C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 29 行.
+NOTIC: [8] Undefined index: username C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 37 行.
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0009s ]
+SQL: SELECT `cate_name` FROM `pay_member_agent_cate` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 110 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 122 行.
+NOTIC: [2] Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [8] Undefined index: username C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [2] Use of undefined constant parentid - assumed 'parentid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [8] Undefined index: parentid C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [8] Undefined index: status C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [8] Undefined index: authorized C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [8] Undefined index: groupid C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [2] Use of undefined constant regdatetime - assumed 'regdatetime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+NOTIC: [8] Undefined index: regdatetime C:\work\juhe\Runtime\Cache\User\4ab14966da76be906c60307aac9f2db9.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2019-02-25T16:46:13+08:00 ] 127.0.0.1 /user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [2] Use of undefined constant agent_cate - assumed 'agent_cate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 53 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 58 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant open_charge - assumed 'open_charge' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 103 行.
+NOTIC: [2] Use of undefined constant df_api - assumed 'df_api' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 117 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 120 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 128 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 142 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002348s ]
+
+[ 2019-02-25T16:46:13+08:00 ] 127.0.0.1 /agent_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0066s ]
+SQL: SELECT SUM( pay_actualamount ) AS total, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10112  GROUP BY DATETIME [ RunTime:0.0424s ]
+SQL: SELECT COUNT( id ) AS num, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10112  GROUP BY DATETIME [ RunTime:0.0405s ]
+NOTIC: [8] Undefined variable: category C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: dataone C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: datatwo C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pay_article` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_article` WHERE `status` = 1 AND `groupid` IN ('0','1') ORDER BY id desc LIMIT 2   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_loginrecord` WHERE `userid` = 112 ORDER BY id desc LIMIT 2   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0362s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0341s ]
+NOTIC: [8] Undefined variable: ipItem C:\work\juhe\Application\User\Controller\IndexController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [2] Illegal string offset 'loginip' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'loginaddress' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'logindatetime' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 51 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 104 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 105 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2019-02-25T16:46:20+08:00 ] 127.0.0.1 /agent_Account_profile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_sms` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_sms` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0031s ]
+SQL: SELECT `df_api` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 95 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 103 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 110 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 117 行.
+NOTIC: [2] Use of undefined constant sex - assumed 'sex' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 157 行.
+NOTIC: [2] Use of undefined constant sex - assumed 'sex' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 159 行.
+NOTIC: [2] Use of undefined constant login_ip - assumed 'login_ip' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 174 行.
+NOTIC: [2] Use of undefined constant df_domain - assumed 'df_domain' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 196 行.
+NOTIC: [2] Use of undefined constant df_ip - assumed 'df_ip' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 203 行.
+NOTIC: [8] Undefined variable: sendUrl C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 224 行.
+NOTIC: [2] Use of undefined constant T - assumed 'T' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: T C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant createtime - assumed 'createtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant successtime - assumed 'successtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: status C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2019-02-25T16:46:25+08:00 ] 127.0.0.1 /agent_Withdrawal_dfapplyshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_sms` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_sms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `userid` = 112 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `issystem` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_bankcard` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `pay_bankcard` WHERE `userid` = 112  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('3','4','5','6','7','8','9','10','11','12','13','14','15')  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2] Use of undefined constant t1zt - assumed 't1zt' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 37 行.
+NOTIC: [8] Undefined variable: first_bind_mobile C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+NOTIC: [2] Use of undefined constant mobile - assumed 'mobile' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-02-25T16:46:25+08:00 ] 127.0.0.1 /agent_Withdrawal_getsxf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] A non-numeric value encountered C:\work\juhe\Application\User\Controller\WithdrawalController.class.php 第 1780 行.
+
+[ 2019-02-25T16:46:25+08:00 ] 127.0.0.1 /agent_Withdrawal_getallmoney.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003174s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005748s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] A non-numeric value encountered C:\work\juhe\Application\User\Controller\WithdrawalController.class.php 第 1801 行.
+
+[ 2019-02-25T16:46:29+08:00 ] 127.0.0.1 /agent_Withdrawal_getsxf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-02-25T16:46:29+08:00 ] 127.0.0.1 /agent_Withdrawal_getallmoney.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-02-25T16:46:49+08:00 ] 127.0.0.1 /agent_Withdrawal_dfsave.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   FOR UPDATE  [ RunTime:0.0004s ]
+
+[ 2019-02-25T16:46:50+08:00 ] 127.0.0.1 /agent_Withdrawal_dfapplyshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0103s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_sms` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_sms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `userid` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `issystem` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_bankcard` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_bankcard` WHERE `userid` = 112  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('3','4','5','6','7','8','9','10','11','12','13','14','15')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [2] Use of undefined constant t1zt - assumed 't1zt' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 37 行.
+NOTIC: [8] Undefined variable: first_bind_mobile C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+NOTIC: [2] Use of undefined constant mobile - assumed 'mobile' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2019-02-25T16:46:50+08:00 ] 127.0.0.1 /agent_Withdrawal_getallmoney.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] A non-numeric value encountered C:\work\juhe\Application\User\Controller\WithdrawalController.class.php 第 1801 行.
+
+[ 2019-02-25T16:46:50+08:00 ] 127.0.0.1 /agent_Withdrawal_getsxf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] A non-numeric value encountered C:\work\juhe\Application\User\Controller\WithdrawalController.class.php 第 1780 行.
+
+[ 2019-02-25T16:46:58+08:00 ] 127.0.0.1 /agent_Withdrawal_getallmoney.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0016s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-02-25T16:46:58+08:00 ] 127.0.0.1 /agent_Withdrawal_getsxf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004423s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-02-25T16:57:31+08:00 ] 127.0.0.1 /user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] Use of undefined constant agent_cate - assumed 'agent_cate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 53 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 58 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant open_charge - assumed 'open_charge' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 103 行.
+NOTIC: [2] Use of undefined constant df_api - assumed 'df_api' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 117 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 120 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 128 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 142 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002855s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2019-02-25T16:57:32+08:00 ] 127.0.0.1 /agent_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT SUM( pay_actualamount ) AS total, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10112  GROUP BY DATETIME [ RunTime:0.0483s ]
+SQL: SELECT COUNT( id ) AS num, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10112  GROUP BY DATETIME [ RunTime:0.0341s ]
+NOTIC: [8] Undefined variable: category C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: dataone C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: datatwo C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pay_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_article` WHERE `status` = 1 AND `groupid` IN ('0','1') ORDER BY id desc LIMIT 2   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_loginrecord` WHERE `userid` = 112 ORDER BY id desc LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0335s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0383s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0448s ]
+NOTIC: [8] Undefined variable: ipItem C:\work\juhe\Application\User\Controller\IndexController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [2] Illegal string offset 'loginip' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'loginaddress' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'logindatetime' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 51 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 104 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 105 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2019-02-25T18:38:38+08:00 ] 127.0.0.1 /user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [2] Use of undefined constant agent_cate - assumed 'agent_cate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 53 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 58 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant open_charge - assumed 'open_charge' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 70 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 103 行.
+NOTIC: [2] Use of undefined constant df_api - assumed 'df_api' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 117 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 120 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 128 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 142 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008659s ]
+
+[ 2019-02-25T18:38:39+08:00 ] 127.0.0.1 /agent_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT SUM( pay_actualamount ) AS total, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10112  GROUP BY DATETIME [ RunTime:0.0375s ]
+SQL: SELECT COUNT( id ) AS num, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2019-02-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2019-02-28' ) AND pay_status>=1 AND pay_memberid=10112  GROUP BY DATETIME [ RunTime:0.0359s ]
+NOTIC: [8] Undefined variable: category C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: dataone C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: datatwo C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\work\juhe\Application\User\Controller\IndexController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pay_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_article` WHERE `status` = 1 AND `groupid` IN ('0','1') ORDER BY id desc LIMIT 2   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_loginrecord` WHERE `userid` = 112 ORDER BY id desc LIMIT 2   [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0317s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0314s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0313s ]
+NOTIC: [8] Undefined variable: ipItem C:\work\juhe\Application\User\Controller\IndexController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [2] Illegal string offset 'loginip' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'loginaddress' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Illegal string offset 'logindatetime' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 39 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 46 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 51 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 104 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 105 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 110 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2019-02-25T18:38:43+08:00 ] 127.0.0.1 /agent_Account_changeRecord.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0007s ]
+SQL: SELECT pay_product.name,pay_product.id,pay_product.code FROM `pay_product_user` LEFT JOIN pay_product ON pay_product.id = pay_product_user.pid  WHERE pay_product_user.status = 1 AND pay_product_user.userid = '112'  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `pay_moneychange` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_moneychange` WHERE `userid` = 112 LIMIT 1   [ RunTime:0.0298s ]
+SQL: SELECT * FROM `pay_moneychange` WHERE `userid` = 112 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 42 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 46 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 53 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 60 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 60 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 61 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 61 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 62 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 62 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 63 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 63 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 64 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 64 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 65 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 65 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 66 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 66 行.
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Use of undefined constant transid - assumed 'transid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0006s ]
+SQL: SELECT `ddlx` FROM `pay_order` WHERE ( pay_orderid='Arraytransid' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant transid - assumed 'transid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+SQL: SELECT `ddlx` FROM `pay_order` WHERE ( pay_orderid='Arraytransid' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Use of undefined constant transid - assumed 'transid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+SQL: SELECT `ddlx` FROM `pay_order` WHERE ( pay_orderid='Arraytransid' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Use of undefined constant transid - assumed 'transid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+SQL: SELECT `ddlx` FROM `pay_order` WHERE ( pay_orderid='Arraytransid' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Use of undefined constant transid - assumed 'transid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+SQL: SELECT `ddlx` FROM `pay_order` WHERE ( pay_orderid='Arraytransid' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Use of undefined constant transid - assumed 'transid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+SQL: SELECT `ddlx` FROM `pay_order` WHERE ( pay_orderid='Arraytransid' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Use of undefined constant transid - assumed 'transid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+NOTIC: [8] Array to string conversion C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 128 行.
+SQL: SELECT `ddlx` FROM `pay_order` WHERE ( pay_orderid='Arraytransid' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`groupid` FROM `pay_member` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `pay_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 142 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 142 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 143 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 143 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 144 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 144 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 145 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 145 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 146 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 146 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 147 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 147 行.
+NOTIC: [2] Use of undefined constant orderid - assumed 'orderid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+NOTIC: [2] Use of undefined constant createtime - assumed 'createtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\c1a3d30f96ea1fe32934762b403e9f2e.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2019-02-25T18:38:44+08:00 ] 127.0.0.1 /agent_Account_channelFinance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name`,`code` FROM `pay_product` LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 LIMIT 1   [ RunTime:0.0319s ]
+SQL: SELECT `pay_bankcode`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_status` FROM `pay_order` WHERE `pay_memberid` = 10112 LIMIT 0,100000   [ RunTime:0.0372s ]
+NOTIC: [2] bcdiv(): Division by zero C:\work\juhe\Application\User\Controller\AccountController.class.php 第 950 行.
+NOTIC: [2] bcdiv(): Division by zero C:\work\juhe\Application\User\Controller\AccountController.class.php 第 950 行.
+NOTIC: [2] bcdiv(): Division by zero C:\work\juhe\Application\User\Controller\AccountController.class.php 第 950 行.
+NOTIC: [2] bcdiv(): Division by zero C:\work\juhe\Application\User\Controller\AccountController.class.php 第 950 行.
+NOTIC: [2] bcdiv(): Division by zero C:\work\juhe\Application\User\Controller\AccountController.class.php 第 950 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2019-02-25T18:38:45+08:00 ] 127.0.0.1 /agent_Withdrawal_dfapplyshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_sms` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_sms` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `userid` = 112 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `issystem` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_bankcard` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_bankcard` WHERE `userid` = 112  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('3','4','5','6','7','8','9','10','11','12','13','14','15')  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [2] Use of undefined constant t1zt - assumed 't1zt' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 37 行.
+NOTIC: [8] Undefined variable: first_bind_mobile C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+NOTIC: [2] Use of undefined constant mobile - assumed 'mobile' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2019-02-25T18:38:45+08:00 ] 127.0.0.1 /agent_Withdrawal_getsxf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] A non-numeric value encountered C:\work\juhe\Application\User\Controller\WithdrawalController.class.php 第 1780 行.
+
+[ 2019-02-25T18:38:45+08:00 ] 127.0.0.1 /agent_Withdrawal_getallmoney.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003960s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] A non-numeric value encountered C:\work\juhe\Application\User\Controller\WithdrawalController.class.php 第 1801 行.
+
+[ 2019-02-25T18:38:54+08:00 ] 127.0.0.1 /agent_Withdrawal_dfapplyshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0034s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_sms` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_sms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `userid` = 112 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `issystem` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_bankcard` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_bankcard` WHERE `userid` = 112  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('3','4','5','6','7','8','9','10','11','12','13','14','15')  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] Use of undefined constant t1zt - assumed 't1zt' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 37 行.
+NOTIC: [8] Undefined variable: first_bind_mobile C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+NOTIC: [2] Use of undefined constant mobile - assumed 'mobile' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\f3c17be63daebf8c6385df5e9685e289.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2019-02-25T18:50:33+08:00 ] 127.0.0.1 /agent_Withdrawal_testSms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2019-02-25T19:34:51+08:00 ] 127.0.0.1 /agent_Account_reconciliation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT `regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p C:\work\juhe\Application\User\Controller\AccountController.class.php 第 1184 行.
+SQL: SHOW COLUMNS FROM `pay_reconciliation` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-25' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0322s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1551024000 AND 1551110399 LIMIT 1   [ RunTime:0.0339s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-25','16','0','16','276.0000',NULL,'112','1551094489') [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-24' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550937600 AND 1551023999 LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550937600 AND 1551023999 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550937600 AND 1551023999 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0301s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550937600 AND 1551023999 LIMIT 1   [ RunTime:0.0291s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550937600 AND 1551023999 LIMIT 1   [ RunTime:0.0280s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-24','0','0','0',NULL,NULL,'112','1551094489') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-23' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550851200 AND 1550937599 LIMIT 1   [ RunTime:0.0286s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550851200 AND 1550937599 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550851200 AND 1550937599 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0289s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550851200 AND 1550937599 LIMIT 1   [ RunTime:0.0297s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550851200 AND 1550937599 LIMIT 1   [ RunTime:0.0297s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-23','0','0','0',NULL,NULL,'112','1551094489') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-22' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550764800 AND 1550851199 LIMIT 1   [ RunTime:0.0285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550764800 AND 1550851199 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550764800 AND 1550851199 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0443s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550764800 AND 1550851199 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550764800 AND 1550851199 LIMIT 1   [ RunTime:0.0282s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-22','1','0','1','12.0000',NULL,'112','1551094490') [ RunTime:0.0049s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-21' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550678400 AND 1550764799 LIMIT 1   [ RunTime:0.0285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550678400 AND 1550764799 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550678400 AND 1550764799 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0288s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550678400 AND 1550764799 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550678400 AND 1550764799 LIMIT 1   [ RunTime:0.0312s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-21','0','0','0',NULL,NULL,'112','1551094490') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-20' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550592000 AND 1550678399 LIMIT 1   [ RunTime:0.0305s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550592000 AND 1550678399 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550592000 AND 1550678399 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550592000 AND 1550678399 LIMIT 1   [ RunTime:0.0296s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550592000 AND 1550678399 LIMIT 1   [ RunTime:0.0300s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-20','0','0','0',NULL,NULL,'112','1551094490') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-19' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550505600 AND 1550591999 LIMIT 1   [ RunTime:0.0282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550505600 AND 1550591999 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550505600 AND 1550591999 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0291s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550505600 AND 1550591999 LIMIT 1   [ RunTime:0.0287s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550505600 AND 1550591999 LIMIT 1   [ RunTime:0.0290s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-19','0','0','0',NULL,NULL,'112','1551094490') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-18' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550419200 AND 1550505599 LIMIT 1   [ RunTime:0.0302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550419200 AND 1550505599 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550419200 AND 1550505599 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0288s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550419200 AND 1550505599 LIMIT 1   [ RunTime:0.0296s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550419200 AND 1550505599 LIMIT 1   [ RunTime:0.0292s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-18','1','0','1','1.0000',NULL,'112','1551094490') [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-17' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550332800 AND 1550419199 LIMIT 1   [ RunTime:0.0284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550332800 AND 1550419199 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0286s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550332800 AND 1550419199 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0291s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550332800 AND 1550419199 LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550332800 AND 1550419199 LIMIT 1   [ RunTime:0.0317s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-17','4','0','4','25.0000',NULL,'112','1551094490') [ RunTime:0.0039s ]
+SQL: SELECT * FROM `pay_reconciliation` WHERE `userid` = 112 AND `date` = '2019-02-16' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550246400 AND 1550332799 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550246400 AND 1550332799 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0306s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550246400 AND 1550332799 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_applydate` BETWEEN 1550246400 AND 1550332799 LIMIT 1   [ RunTime:0.0311s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_successdate` BETWEEN 1550246400 AND 1550332799 LIMIT 1   [ RunTime:0.0350s ]
+SQL: INSERT INTO `pay_reconciliation` (`date`,`order_total_count`,`order_success_count`,`order_fail_count`,`order_total_amount`,`order_success_amount`,`userid`,`ctime`) VALUES ('2019-02-16','0','0','0',NULL,NULL,'112','1551094491') [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2019-02-25T19:34:52+08:00 ] 127.0.0.1 /agent_Account_profile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_sms` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pay_sms` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT `df_api` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `username` FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 95 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 103 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 110 行.
+NOTIC: [2] Use of undefined constant authorized - assumed 'authorized' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 117 行.
+NOTIC: [2] Use of undefined constant sex - assumed 'sex' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 157 行.
+NOTIC: [2] Use of undefined constant sex - assumed 'sex' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 159 行.
+NOTIC: [2] Use of undefined constant login_ip - assumed 'login_ip' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 174 行.
+NOTIC: [2] Use of undefined constant df_domain - assumed 'df_domain' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 196 行.
+NOTIC: [2] Use of undefined constant df_ip - assumed 'df_ip' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 203 行.
+NOTIC: [8] Undefined variable: sendUrl C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 224 行.
+NOTIC: [2] Use of undefined constant T - assumed 'T' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: T C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant createtime - assumed 'createtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant successtime - assumed 'successtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+NOTIC: [8] Undefined index: status C:\work\juhe\Runtime\Cache\User\ab070ebc0ea52ddabda22edffd505f45.php 第 264 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2019-02-25T19:34:55+08:00 ] 127.0.0.1 /agent_Account_bankcard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003861s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parentid` FROM `pay_member` WHERE `parentid` = 112 AND `groupid` = 6  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_bankcard` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_bankcard` WHERE `userid` = 112 LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pay_bankcard` WHERE `userid` = 112 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant isdefault - assumed 'isdefault' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 57 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 66 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 69 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 82 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 82 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 83 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 83 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 84 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 84 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 85 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 85 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 86 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 86 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 87 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\c3f6e73890233a2802e63f96083c9f34.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+

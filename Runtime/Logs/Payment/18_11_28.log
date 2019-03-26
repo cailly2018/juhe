@@ -1,0 +1,154 @@
+[ 2018-11-28T15:30:51+08:00 ] 127.0.0.1 /Payment_YYpayDf_Query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `code` = 'YYpayDf'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 5 LIMIT 1   FOR UPDATE  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004018s ]
+
+[ 2018-11-28T15:31:17+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003904s ]
+
+[ 2018-11-28T15:35:04+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=TEST1541316873776&mchid=0106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2018-11-28T15:35:11+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=TEST1541316873776&mchid=0106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = -9894 LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2018-11-28T15:35:19+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=TEST1541316873776&mchid=10106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003298s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005045s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'TEST1541316873776' AND `userid` = 106 LIMIT 1   [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` = 22 AND `userid` = 106 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2018-11-28T15:37:04+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=DF1541404751831&mchid=10106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'DF1541404751831' AND `userid` = 106 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` = 20 AND `userid` = 106 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2018-11-28T15:38:31+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=1811271756584219&mchid=10106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '1811271756584219' AND `userid` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` = 85 AND `userid` = 106 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2018-11-28T15:39:08+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=DF1541404751838&mchid=10106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'DF1541404751838' AND `userid` = 106 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` = 20 AND `userid` = 106 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2018-11-28T15:39:23+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=TEST1543290288784&mchid=10106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003794s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'TEST1543290288784' AND `userid` = 106 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` = 81 AND `userid` = 106 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2018-11-28T15:39:26+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=TEST1543290288784&mchid=10106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002774s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'TEST1543290288784' AND `userid` = 106 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` = 81 AND `userid` = 106 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+

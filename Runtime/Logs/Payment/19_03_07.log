@@ -1,0 +1,31 @@
+[ 2019-03-07T13:57:27+08:00 ] 127.0.0.1 /Payment_KJpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+
+[ 2019-03-07T14:01:26+08:00 ] 127.0.0.1 /Payment_KJpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003540s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'KJpayDf' LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2019-03-07T14:01:48+08:00 ] 127.0.0.1 /Payment_KJpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004731s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'KJpayDf' LIMIT 1   [ RunTime:0.0004s ]
+

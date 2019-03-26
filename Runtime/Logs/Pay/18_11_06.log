@@ -1,0 +1,263 @@
+[ 2018-11-06T15:56:28+08:00 ] 127.0.0.1 /Pay_Repost_postUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`pay_orderid`,`pay_ytongdao` FROM `pay_order` WHERE `pay_status` = 1 AND `num` < '5' ORDER BY id asc LIMIT 50   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181026221900525510' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_order` SET `num`=num+1 WHERE `id` = 89790 [ RunTime:0.0035s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181026223315985010' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `pay_order` SET `num`=num+1 WHERE `id` = 89795 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20181026223356521005' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `pay_order` SET `num`=num+1 WHERE `id` = 89796 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2018-11-06T15:56:42+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2018-11-06T15:58:13+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003921s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit_rule` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_complaints_deposit_rule` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002388s ]
+
+[ 2018-11-06T15:58:30+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+
+[ 2018-11-06T15:58:57+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+
+[ 2018-11-06T15:59:02+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+ERR: 1146:Table 'juhe.pay_complaints_deposi' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pay_complaints_deposi`
+ERR: 1146:Table 'juhe.pay_complaints_deposi' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pay_complaints_deposi`
+
+[ 2018-11-06T15:59:25+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_complaints_deposit` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2018-11-06T16:00:37+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_complaints_deposit` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-06T16:00:56+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_complaints_deposit` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2018-11-06T16:02:53+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0012s ]
+ERR: 1054:Unknown column 'O.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM pay_complaints_deposit as c WHERE O.status = 0 ORDER BY id desc 
+ERR: 1054:Unknown column 'O.status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM pay_complaints_deposit as c WHERE O.status = 0 ORDER BY id desc 
+
+[ 2018-11-06T16:03:09+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003806s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2018-11-06T16:03:20+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0006s ]
+
+[ 2018-11-06T16:05:15+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003588s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0005s ]
+
+[ 2018-11-06T16:06:00+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0004s ]
+
+[ 2018-11-06T16:07:02+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0016s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0006s ]
+
+[ 2018-11-06T16:13:51+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0007s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2018-11-06T16:26:45+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0008s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-06T16:41:11+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0018s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `pay_complaints_deposit` SET `real_unfreeze_time`='1541493671',`is_pause`='0',`status`='1',`update_at`='1' WHERE `id` = 1 [ RunTime:0.0025s ]
+SQL: UPDATE `pay_member` SET `balance`='7207.65' WHERE `id` = 90 [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_moneychange` [ RunTime:0.0013s ]
+SQL: INSERT INTO `pay_moneychange` (`userid`,`ymoney`,`money`,`gmoney`,`datetime`,`tongdao`,`transid`,`orderid`,`contentstr`,`lx`,`t`) VALUES ('90','7198.0000','9.6500','7207.65','2018-11-06 16:41:11','0','20181106142358101501','E2018110614235257444840','20181106142358101501订单充值,保证金解除','10','0') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2018-11-06T16:44:04+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0005s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0004s ]
+
+[ 2018-11-06T16:44:28+08:00 ] 127.0.0.1 /Pay_Repost_relieveBond.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0006s ]
+SQL: SELECT * FROM pay_complaints_deposit as c WHERE c.status = 0 ORDER BY id desc  [ RunTime:0.0004s ]
+

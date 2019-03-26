@@ -1,0 +1,85 @@
+[ 2019-01-30T10:46:22+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = 'S123139870870817'  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `pay_channel` WHERE `code` = 'ZHpaywx' AND `status` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 273 LIMIT 1   [ RunTime:0.0043s ]
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key C:\work\juhe\Application\Pay\Controller\ZHpaywxController.class.php 第 133 行.
+
+[ 2019-01-30T10:47:08+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003880s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = 'S123139870870817'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_channel` WHERE `code` = 'ZHpaywx' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 273 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key C:\work\juhe\Application\Pay\Controller\ZHpaywxController.class.php 第 133 行.
+
+[ 2019-01-30T10:47:49+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = 'S123139870870817'  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pay_channel` WHERE `code` = 'ZHpaywx' AND `status` = 1 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2019-01-30T10:49:37+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = 'S123139870870817'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_channel` WHERE `code` = 'ZHpaywx' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 273 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key C:\work\juhe\Application\Pay\Controller\ZHpaywxController.class.php 第 133 行.
+
+[ 2019-01-30T10:50:20+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015989s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018181s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = 'S123139870870817'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_channel` WHERE `code` = 'ZHpaywx' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 273 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key C:\work\juhe\Application\Pay\Controller\ZHpaywxController.class.php 第 133 行.
+

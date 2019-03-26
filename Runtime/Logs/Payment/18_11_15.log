@@ -1,0 +1,145 @@
+[ 2018-11-15T11:28:45+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-15T11:31:01+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+
+[ 2018-11-15T11:31:22+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '20181115033121' AND `userid` = 90 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('2','3')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: INSERT INTO `pay_df_api_order` (`userid`,`trade_no`,`out_trade_no`,`money`,`bankname`,`subbranch`,`accountname`,`cardnumber`,`province`,`city`,`ip`,`check_status`,`extends`,`create_time`) VALUES ('90','H1115526820306533','20181115033121','100','1','1','1','1','10','1','127.0.0.1','0','{\"lhh\":\"1\"}','1542252682') [ RunTime:0.0007s ]
+
+[ 2018-11-15T13:00:10+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-11-15T18:59:12+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002960s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005149s ]
+
+[ 2018-11-15T19:00:27+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+ERR: Call to undefined function Payment\Controller\request()
+
+[ 2018-11-15T19:02:06+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+
+[ 2018-11-15T19:04:48+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+ERR: Class 'think\Request' not found
+
+[ 2018-11-15T19:06:07+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+ERR: Class 'think\Request' not found
+
+[ 2018-11-15T19:06:08+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+ERR: Class 'think\Request' not found
+
+[ 2018-11-15T19:06:14+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+
+[ 2018-11-15T19:14:38+08:00 ] 127.0.0.1 /Payment_TxbPay_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+
+[ 2018-11-15T22:56:05+08:00 ] 127.0.0.1 /Payment_Index_batchQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('13') AND `status` = 1  [ RunTime:0.0005s ]
+

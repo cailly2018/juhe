@@ -1,0 +1,40 @@
+[ 2018-11-17T20:06:11+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10090.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 109 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 118 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+

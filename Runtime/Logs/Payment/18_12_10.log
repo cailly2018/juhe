@@ -1,0 +1,87 @@
+[ 2018-12-10T13:37:49+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-12-10T13:48:11+08:00 ] 127.0.0.1 /Payment_CHpayDf_Query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `code` = 'CHpayDf'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 6 LIMIT 1   FOR UPDATE  [ RunTime:0.0004s ]
+
+[ 2018-12-10T13:48:50+08:00 ] 127.0.0.1 /Payment_CHpayDf_Query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `code` = 'CHpayDf'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 6 LIMIT 1   FOR UPDATE  [ RunTime:0.0003s ]
+
+[ 2018-12-10T13:48:51+08:00 ] 127.0.0.1 /Payment_CHpayDf_Query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `code` = 'CHpayDf'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 6 LIMIT 1   FOR UPDATE  [ RunTime:0.0004s ]
+
+[ 2018-12-10T14:40:16+08:00 ] 127.0.0.1 /Payment_Index_batchQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('93') AND `status` = 1  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-12-10T14:40:24+08:00 ] 127.0.0.1 /Payment_Index_batchQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('') AND `status` = 1  [ RunTime:0.0005s ]
+
+[ 2018-12-10T14:40:39+08:00 ] 127.0.0.1 /Payment_Index_batchQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003471s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('93') AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+

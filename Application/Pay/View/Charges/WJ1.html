@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="签约">
+    <meta name="keywords" content="签约">
+    <title><{$title}></title>
+    <!-- CORE CSS-->
+    <link href="<{$siteurl}>web/static/css/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="<{$siteurl}>web/static/css/style.min.css" type="text/css" rel="stylesheet">
+    <!-- Custome CSS-->
+    <link href="<{$siteurl}>web/static/css/custom/custom.min.css" type="text/css" rel="stylesheet">
+    <link href="<{$siteurl}>web/static/css/layouts/page-center.css" type="text/css" rel="stylesheet">
+    <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link href="<{$siteurl}>web/static/js/plugins/prism/prism.css" type="text/css" rel="stylesheet">
+    <link href="<{$siteurl}>web/static/js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet">
+
+    <link href="<{$siteurl}>web/static/js/plugins/sweetalert/sweetalert.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link rel="icon" href="http://www.nutbe.cn/favicon.ico" />
+</head>
+<body class="cyan">
+<!-- Start Page Loading -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<div id="login-page" class="row">
+    <div class="col s12 z-depth-4 card-panel"  style="border-radius:8px;">
+        <form id='editForm' class="form-inline" method="post" >
+            <div class="row">
+                <div class="input-field col s12 center">
+                    <{$orderid}>
+                </div>
+            </div>
+            <div class="row margin">
+                <div class="input-field col s10">
+                    <i class="prefix">P</i>
+                    <input id="owner" name="owner" value=""  type="text" >
+                    <label>姓名</label>
+                </div>
+            </div>
+
+            <div class="row margin">
+                <div class="input-field col s10">
+                    <i class="prefix">P</i>
+                    <input id="phone" name="phone" value=""  type="text" >
+                    <label >手机号</label>
+                </div>
+            </div>
+
+            <div class="row margin">
+                <div class="input-field col s10">
+                    <i class="prefix">P</i>
+                    <input id="card_no" name="card_no" value=""  type="text" >
+                    <label >银行卡号</label>
+                </div>
+            </div>
+            <div class="row margin">
+                <div class="input-field col s10">
+                    <i class="prefix">P</i>
+                    <input id="card_type" name="card_type" value=""  type="text" >
+                    <label >卡类型</label>
+                </div>
+            </div>
+
+
+            <div class="row margin">
+                <div class="input-field col s10">
+                    <i class="prefix">P</i>
+                    <input id="cert_no" name="cert_no" value=""  type="text" >
+                    <label >身份证号</label>
+                </div>
+            </div>
+
+
+            <div class="row margin">
+                <div class="input-field col s10">
+                    <i class="prefix">P</i>
+                    <input id="cvv2" name="cvv2" value=""  type="text" >
+                    <label >信用卡背后3位数字</label>
+                </div>
+            </div>
+
+            <div class="row margin">
+                <div class="input-field col s10">
+                    <i class="prefix">P</i>
+                    <input id="validthru" name="validthru" value=""  type="text" >
+                    <label >卡有效期</label>
+                </div>
+            </div>
+
+
+            <div class="input-field col s12">
+                <button type="button" onclick="register_check()" class="btn waves-effect waves-light col s12" style="border-radius:5px; margin-top: 25px;">下一步</a>
+                </button>
+            </div>
+            <div class="input-field col s12">
+                <p class="margin center medium-small sign-up">
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+
+    window.onload=function(){
+        //监听金额的变化
+        var otxt=document.getElementById("pay_amount");
+        otxt.onkeyup=function(){
+            if(this.value){
+                register_check();
+            }
+        }
+    }
+   function register_check(){
+        var  data = {};
+        data.pay_memberid    = $('#pay_memberid').val();
+        data.pay_orderid     = $('#pay_orderid').val();
+        data.check_code      = $('#check_code').val();
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "/Pay_Charges_pay.html",
+            data: data,
+            success: function (datas) {
+                 $('#pay_md5sign').val(datas.sign);
+                authentication( data.pay_orderid,data.check_code  );
+            }
+        },'json');
+   }
+   function authentication(pay_orderid,check_code) {
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "/Pay_RBpaykj_checkCode.html",
+            data: $('#editForm').serialize(),
+            success: function (res) {
+                if(res.status == 0){
+                    location.href="/Pay_Charges_payMoney_mid_"+pay_orderid+"_code_"+check_code+".html"
+                }else {
+                    alert(res.msg);
+                }
+            }
+        },'json');
+    }
+</script>
+
+<!-- jQuery Library -->
+<script type="text/javascript" src="<{$siteurl}>web/static/js/plugins/jquery-1.11.2.min.js"></script>
+<!--materialize js-->
+<script type="text/javascript" src="<{$siteurl}>web/static/js/materialize.min.js"></script>
+<!--prism-->
+<script type="text/javascript" src="<{$siteurl}>web/static/js/plugins/prism/prism.js"></script>
+<!--scrollbar-->
+<script type="text/javascript" src="<{$siteurl}>web/static/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<!--sweetalert -->
+<script type="text/javascript" src="<{$siteurl}>web/static/js/plugins/sweetalert/sweetalert.min.js"></script>
+<script type="text/javascript" src="<{$siteurl}>web/static/js/plugins.min.js"></script>
+<!--custom-script.js - Add your own theme custom JS-->
+<script type="text/javascript" src="<{$siteurl}>web/static/js/custom-script.js"></script>
+<script type="text/javascript" src="<{$siteurl}>web/static/js/plugins/formatter/jquery.formatter.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,867 @@
+[ 2019-01-15T16:04:32+08:00 ] 127.0.0.1 /manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+
+[ 2019-01-15T16:04:32+08:00 ] 127.0.0.1 /manage_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2019-01-15T16:04:32+08:00 ] 127.0.0.1 /manage_Login_verifycode.html?t=1547539472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2019-01-15T16:04:41+08:00 ] 127.0.0.1 /manage_Login_checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pay_admin` WHERE `username` = 'admin' AND `password` = '5c19392c28bd0d4b46527ffe32306b28' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2019-01-15T16:04:42+08:00 ] 127.0.0.1 /manage_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2019-01-15T16:04:42+08:00 ] 127.0.0.1 /manage_Login_verifycode.html?t=1547539482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2019-01-15T16:05:01+08:00 ] 127.0.0.1 /manage_Login_checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_admin` WHERE `username` = 'cailly' AND `password` = '7aa5e695be95cdd64a88410a64dfe2c1' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0059s ]
+SQL: SELECT `login_ip` FROM `pay_websiteconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0009s ]
+SQL: INSERT INTO `pay_loginrecord` (`userid`,`logindatetime`,`loginip`,`loginaddress`,`type`) VALUES ('6','2019-01-15 16:05:01','127.0.0.1','本机地址-','1') [ RunTime:0.0021s ]
+SQL: UPDATE `pay_admin` SET `session_random`='Hotb7zWI8NhlmmFDOlwBvp4xmNsGSLJv' WHERE `username` = 'cailly' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-15T16:05:02+08:00 ] 127.0.0.1 /manage_Index_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0025s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0018s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0006s ]
+SQL: SELECT `withdraw` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2019-01-15T16:05:02+08:00 ] 127.0.0.1 /manage_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0008s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0025s ]
+SQL: SELECT sum(`pay_amount`) amount,sum(`pay_poundage`) rate,sum(`pay_actualamount`) total FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1547481600 AND 1547568000 LIMIT 1   [ RunTime:0.0251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1547481600 AND 1547568000 LIMIT 1   [ RunTime:0.0231s ]
+SQL: select COUNT(id) as num,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(FROM_UNIXTIME(pay_successdate,'%Y-%m-%d')) and pay_successdate>=1546934702;  [ RunTime:0.0164s ]
+SQL: select FROM_UNIXTIME(pay_successdate,'%Y年-%m月') AS month,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and pay_successdate>=1546272000 GROUP BY month;   [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003318s ]
+
+[ 2019-01-15T16:05:07+08:00 ] 127.0.0.1 /manage_Statistics_userFinance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0103s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_member` WHERE `groupid` = '4' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`balance`,`blockedbalance` FROM `pay_member` WHERE `groupid` = '4' LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `pay_tklist` [ RunTime:0.0020s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10106 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0162s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 106 AND `status` = 2 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 106 AND `status` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10106 LIMIT 1   [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10106 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10106 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0155s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10106 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10106 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0178s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10106 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `pay_moneychange` [ RunTime:0.0053s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 106 AND `lx` = 9 LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `pay_redo_order` [ RunTime:0.0020s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 106 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 106 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10106 LIMIT 1   [ RunTime:0.0148s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10106 LIMIT 1   [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0024s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 106 AND `status` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 106 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10109 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 109 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 109 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10109 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10109 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10109 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0145s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10109 LIMIT 1   [ RunTime:0.0183s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10109 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10109 LIMIT 1   [ RunTime:0.0138s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 109 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 109 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 109 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10109 LIMIT 1   [ RunTime:0.0136s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10109 LIMIT 1   [ RunTime:0.0137s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 109 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 109 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10110 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 110 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 110 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10110 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10110 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10110 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0133s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10110 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10110 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10110 LIMIT 1   [ RunTime:0.0153s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 110 AND `lx` = 9 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 110 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 110 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10110 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10110 LIMIT 1   [ RunTime:0.0138s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 110 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 110 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0135s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 112 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 112 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 LIMIT 1   [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0149s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 LIMIT 1   [ RunTime:0.0228s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 112 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 112 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 112 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 LIMIT 1   [ RunTime:0.0193s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10112 LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 112 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 112 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10113 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0161s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 113 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 113 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10113 LIMIT 1   [ RunTime:0.0218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10113 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10113 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0139s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10113 LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10113 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0151s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10113 LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 113 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 113 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 113 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10113 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10113 LIMIT 1   [ RunTime:0.0143s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 113 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 113 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10114 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 114 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 114 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10114 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10114 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10114 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0142s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10114 LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10114 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0137s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10114 LIMIT 1   [ RunTime:0.0151s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 114 AND `lx` = 9 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 114 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 114 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10114 LIMIT 1   [ RunTime:0.0135s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10114 LIMIT 1   [ RunTime:0.0311s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 114 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 114 AND `lx` = 9 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10115 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0195s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 115 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 115 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10115 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10115 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10115 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10115 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10115 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0141s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10115 LIMIT 1   [ RunTime:0.0182s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 115 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 115 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 115 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10115 LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10115 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 115 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 115 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10118 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0134s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 118 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 118 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10118 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10118 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10118 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10118 LIMIT 1   [ RunTime:0.0135s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10118 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0161s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10118 LIMIT 1   [ RunTime:0.0189s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 118 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 118 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 118 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10118 LIMIT 1   [ RunTime:0.0136s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10118 LIMIT 1   [ RunTime:0.0161s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 118 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 118 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10120 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 120 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 120 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10120 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10120 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10120 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10120 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10120 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10120 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 120 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10120 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10120 LIMIT 1   [ RunTime:0.0124s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 120 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 120 AND `lx` = 9 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10121 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 121 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 121 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10121 LIMIT 1   [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10121 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10121 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0152s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10121 LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10121 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10121 LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 121 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 121 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 121 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10121 LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10121 LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 121 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 121 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10122 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0133s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 122 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 122 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10122 LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10122 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10122 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10122 LIMIT 1   [ RunTime:0.0171s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10122 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0141s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10122 LIMIT 1   [ RunTime:0.0192s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 122 AND `lx` = 9 LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 122 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 122 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10122 LIMIT 1   [ RunTime:0.0316s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10122 LIMIT 1   [ RunTime:0.0145s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 122 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 122 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10126 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 126 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 126 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10126 LIMIT 1   [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10126 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10126 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10126 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10126 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10126 LIMIT 1   [ RunTime:0.0149s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 126 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 126 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 126 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10126 LIMIT 1   [ RunTime:0.0148s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10126 LIMIT 1   [ RunTime:0.0124s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 126 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 126 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10127 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0136s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 127 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 127 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10127 LIMIT 1   [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10127 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10127 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10127 LIMIT 1   [ RunTime:0.0162s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10127 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10127 LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 127 AND `lx` = 9 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 127 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 127 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10127 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10127 LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 127 AND `status` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 127 AND `lx` = 9 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10128 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 128 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 128 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10128 LIMIT 1   [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10128 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10128 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10128 LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10128 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10128 LIMIT 1   [ RunTime:0.0121s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 128 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 128 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 128 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10128 LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10128 LIMIT 1   [ RunTime:0.0121s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 128 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 128 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10129 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 129 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 129 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10129 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10129 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10129 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0258s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10129 LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10129 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0299s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10129 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 129 AND `lx` = 9 LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 129 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 129 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10129 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10129 LIMIT 1   [ RunTime:0.0173s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 129 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 129 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: tkmoney C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: sxfmoney C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: money C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: all_order_count C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: paid_order_count C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: nopaid_order_count C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: all_order_amount C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: paid_order_amount C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: member_income C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: platform_income C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: balance C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: blockedbalance C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: pay_amount C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: memberid C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 40 行.
+NOTIC: [8] Undefined index: order_time C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 45 行.
+NOTIC: [8] Undefined index: wtkk_time C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 53 行.
+NOTIC: [8] Undefined index: tk_time C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 61 行.
+NOTIC: [8] Undefined variable: page C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 144 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 150 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 150 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 151 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 151 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 152 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 152 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 153 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 153 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 154 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 154 行.
+NOTIC: [8] Undefined variable: export C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2019-01-15T16:05:08+08:00 ] 127.0.0.1 /manage_Statistics_userFinance_groupid_agent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0007s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_member` WHERE `groupid` > '4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`balance`,`blockedbalance` FROM `pay_member` WHERE `groupid` > '4' LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pay_tklist` [ RunTime:0.0019s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10098 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0183s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 98 AND `status` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 98 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10098 LIMIT 1   [ RunTime:0.0224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10098 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10098 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0124s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10098 LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10098 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0209s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10098 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `pay_moneychange` [ RunTime:0.0019s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 98 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pay_redo_order` [ RunTime:0.0016s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 98 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 98 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10098 LIMIT 1   [ RunTime:0.0155s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10098 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0007s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 98 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 98 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10105 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0133s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 105 AND `status` = 2 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 105 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10105 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10105 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10105 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0225s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10105 LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10105 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10105 LIMIT 1   [ RunTime:0.0165s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 105 AND `lx` = 9 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 105 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 105 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10105 LIMIT 1   [ RunTime:0.0136s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10105 LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 105 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 105 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 111 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 111 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 LIMIT 1   [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0142s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 LIMIT 1   [ RunTime:0.0121s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0212s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 111 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 111 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 111 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10111 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 111 AND `status` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 111 AND `lx` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10119 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0159s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 119 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 119 AND `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10119 LIMIT 1   [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10119 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10119 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0163s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10119 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10119 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0196s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10119 LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 119 AND `lx` = 9 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 119 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 119 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10119 LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10119 LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 119 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 119 AND `lx` = 9 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10124 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0124s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 124 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 124 AND `status` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10124 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10124 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10124 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0126s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10124 LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10124 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10124 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 124 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 124 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 124 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10124 LIMIT 1   [ RunTime:0.0124s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10124 LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 124 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 124 AND `lx` = 9 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT sum(pay_amount) pay_amount,sum(pay_poundage) pay_poundage,sum(pay_actualamount) pay_actualamount FROM `pay_order` WHERE `pay_memberid` = 10136 AND `pay_status` <> 0 LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_wttklist` WHERE `userid` = 136 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(tkmoney) tkmoney,sum(sxfmoney) sxfmoney,sum(money) money FROM `pay_tklist` WHERE `userid` = 136 AND `status` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10136 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10136 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10136 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0144s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10136 LIMIT 1   [ RunTime:0.0143s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10136 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10136 LIMIT 1   [ RunTime:0.0121s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `userid` = 136 AND `lx` = 9 LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 1 AND `user_id` = 136 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_redo_order` WHERE `type` = 2 AND `user_id` = 136 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(pay_poundage) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10136 LIMIT 1   [ RunTime:0.0131s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10136 LIMIT 1   [ RunTime:0.0141s ]
+SQL: SELECT SUM(cost) AS tp_sum FROM `pay_wttklist` WHERE `userid` = 136 AND `status` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `pay_moneychange` WHERE `tcuserid` = 136 AND `lx` = 9 LIMIT 1   [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: tkmoney C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: sxfmoney C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: money C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: all_order_count C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: paid_order_count C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: nopaid_order_count C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: all_order_amount C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: paid_order_amount C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: member_income C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: platform_income C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: balance C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: blockedbalance C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+NOTIC: [8] Undefined index: pay_amount C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 266 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: memberid C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 40 行.
+NOTIC: [8] Undefined index: order_time C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 45 行.
+NOTIC: [8] Undefined index: wtkk_time C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 53 行.
+NOTIC: [8] Undefined index: tk_time C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 61 行.
+NOTIC: [8] Undefined variable: page C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 144 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 150 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 150 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 151 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 151 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 152 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 152 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 153 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 153 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 154 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 154 行.
+NOTIC: [8] Undefined variable: export C:\work\juhe\Runtime\Cache\Admin\eb0f6cf23235d54f7b72dc47cbde4157.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2019-01-15T16:05:10+08:00 ] 127.0.0.1 /manage_Statistics_chargeRank.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0007s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SELECT count('a.*') as count FROM(SELECT pay_member.id as userid FROM `pay_order` LEFT JOIN pay_member ON (pay_member.id + 10000) = pay_order.pay_memberid WHERE `pay_successdate` BETWEEN 1547481600 AND 1547567999 AND `pay_status` > 0 AND `ddlx` = 1 GROUP BY pay_memberid)  a [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT pay_member.id as userid,pay_member.username,pay_member.realname,sum(pay_amount) as total_charge FROM `pay_order` LEFT JOIN pay_member ON (pay_member.id + 10000) = pay_order.pay_memberid  WHERE `pay_successdate` BETWEEN 1547481600 AND 1547567999 AND `pay_status` > 0 GROUP BY pay_memberid ORDER BY total_charge desc LIMIT 0,50   [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: p C:\work\juhe\Application\Admin\Controller\StatisticsController.class.php 第 742 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 77 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 77 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 78 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 78 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 79 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 79 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 80 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 80 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 81 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 81 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 82 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\Admin\f684f4eb949cc128f267381d12cd5e3b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2019-01-15T17:02:59+08:00 ] 127.0.0.1 /manage_Index_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0025s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT `withdraw` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2019-01-15T17:02:59+08:00 ] 127.0.0.1 /manage_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0008s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0032s ]
+SQL: SELECT sum(`pay_amount`) amount,sum(`pay_poundage`) rate,sum(`pay_actualamount`) total FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1547481600 AND 1547568000 LIMIT 1   [ RunTime:0.0229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1547481600 AND 1547568000 LIMIT 1   [ RunTime:0.0153s ]
+SQL: select COUNT(id) as num,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(FROM_UNIXTIME(pay_successdate,'%Y-%m-%d')) and pay_successdate>=1546938179;  [ RunTime:0.0155s ]
+SQL: select FROM_UNIXTIME(pay_successdate,'%Y年-%m月') AS month,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and pay_successdate>=1546272000 GROUP BY month;   [ RunTime:0.0125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+

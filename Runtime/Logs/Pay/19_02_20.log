@@ -1,0 +1,37 @@
+[ 2019-02-20T19:26:56+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+
+[ 2019-02-20T19:27:12+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+
+[ 2019-02-20T19:32:09+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0045s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 146 LIMIT 1   [ RunTime:0.0026s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, null given C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 47 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002933s ]
+

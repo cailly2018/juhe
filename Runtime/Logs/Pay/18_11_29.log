@@ -1,0 +1,1209 @@
+[ 2018-11-29T11:53:55+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 264 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 109 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 118 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2018-11-29T12:28:43+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2018-11-29T12:28:46+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-11-29T12:28:46+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004360s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0016s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2018-11-29T12:28:46+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003750s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0015s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2018-11-29T12:28:48+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0179s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912284341241163' LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129122848489754','100','0','100','1543465728','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912284341241163','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2018-11-29T12:31:20+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003017s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2018-11-29T12:31:23+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2018-11-29T12:31:23+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004154s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2018-11-29T12:31:23+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004122s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2018-11-29T12:31:25+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0032s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-29T12:41:39+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0034s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912312086705528' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129124139515410','100','0','100','1543466499','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912312086705528','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+ERR: Call to undefined function Pay\Controller\_createForm()
+
+[ 2018-11-29T12:41:56+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2018-11-29T12:41:58+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004309s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2018-11-29T12:41:59+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004194s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2018-11-29T12:41:59+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004094s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2018-11-29T12:42:01+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0024s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912415685962344' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129124201575754','100','0','100','1543466521','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912415685962344','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2018-11-29T12:44:04+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004312s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2018-11-29T12:44:07+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004154s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2018-11-29T12:44:07+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004265s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0016s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2018-11-29T12:44:07+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004185s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2018-11-29T12:44:09+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0022s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912440438298421' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129124409575056','100','0','100','1543466649','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912440438298421','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+
+[ 2018-11-29T12:44:28+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002696s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-11-29T12:44:31+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017804s ]
+
+[ 2018-11-29T12:44:31+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004183s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0089s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2018-11-29T12:44:31+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2018-11-29T12:44:33+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912442874634267' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129124433499956','100','0','100','1543466673','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912442874634267','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+
+[ 2018-11-29T12:45:02+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006252s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2018-11-29T12:45:04+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003705s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0015s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2018-11-29T12:45:04+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2018-11-29T12:45:04+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004198s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0016s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2018-11-29T12:45:06+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004719s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0014s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912450234615499' LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129124506505253','100','0','100','1543466706','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912450234615499','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+
+[ 2018-11-29T12:45:18+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001748s ]
+
+[ 2018-11-29T12:45:21+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003700s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0020s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2018-11-29T12:45:21+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004338s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0016s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2018-11-29T12:45:22+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0087s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2018-11-29T12:45:23+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0018s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912451850725782' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129124523519855','100','0','100','1543466723','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912451850725782','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+
+[ 2018-11-29T12:46:59+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912451850725782' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-29T12:47:02+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003956s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2018-11-29T12:48:36+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005982s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2018-11-29T12:48:39+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2018-11-29T12:48:39+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004146s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0019s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2018-11-29T12:48:39+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2018-11-29T12:48:41+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003566s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0014s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912483635451239' LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129124841575198','100','0','100','1543466921','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912483635451239','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2018-11-29T12:50:55+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003171s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005128s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 267 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2018-11-29T12:50:58+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004304s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0016s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2018-11-29T12:50:58+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004324s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004232s ]
+
+[ 2018-11-29T12:51:01+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0019s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 907 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 907 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 264 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 264 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 907 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112912505568224683' LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181129125101535554','12','0','12','1543467061','907','网银支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','CHpay','网银支付传化支付','传化','CHpay','收银台支付（传化支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112912505568224683','0','2600001','7m6c62qc8c650y27650O','','0.00','0.0000','264','424') [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+

@@ -1,0 +1,391 @@
+[ 2018-11-28T08:43:51+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` = 0  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 88 AND `df_lock` = 0 [ RunTime:0.0055s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='0' WHERE `id` = 88 [ RunTime:0.0076s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('89') AND `status` = 0  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 89 AND `df_lock` = 0 [ RunTime:0.0058s ]
+NOTIC: [2] Illegal string offset 'status' C:\work\juhe\Application\Payment\Controller\PaymentController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset 'memo' C:\work\juhe\Application\Payment\Controller\PaymentController.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array C:\work\juhe\Application\Payment\Controller\PaymentController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 105 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `pay_member` SET `balance`='262.225' WHERE `id` = 105 [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `pay_moneychange` [ RunTime:0.0039s ]
+SQL: INSERT INTO `pay_moneychange` (`userid`,`ymoney`,`money`,`gmoney`,`datetime`,`transid`,`orderid`,`lx`,`contentstr`) VALUES ('105','259.2250','3.0000','262.225','2018-11-28 08:43:51','H1128657448866352','H1128657448866352','10','2018-11-28 08:43:51委托提现操作手续费') [ RunTime:0.0008s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='0' WHERE `id` = 89 [ RunTime:0.0047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002606s ]
+
+[ 2018-11-28T08:45:57+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005664s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 88 AND `df_lock` = 0 [ RunTime:0.0054s ]
+
+[ 2018-11-28T08:46:32+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 88 AND `df_lock` = 0 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('89') AND `status` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 89 AND `df_lock` = 0 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('90') AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 90 AND `df_lock` = 0 [ RunTime:0.0025s ]
+
+[ 2018-11-28T08:48:20+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 88 AND `df_lock` = 0 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('89') AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 89 AND `df_lock` = 0 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('90') AND `status` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 90 AND `df_lock` = 0 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('91') AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 91 AND `df_lock` = 0 [ RunTime:0.0058s ]
+
+[ 2018-11-28T08:50:01+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003711s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 88 AND `df_lock` = 0 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('89') AND `status` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 89 AND `df_lock` = 0 [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('90') AND `status` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 90 AND `df_lock` = 0 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('91') AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 91 AND `df_lock` = 0 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('92') AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 92 AND `df_lock` = 0 [ RunTime:0.0047s ]
+NOTIC: [2] Illegal string offset 'status' C:\work\juhe\Application\Payment\Controller\PaymentController.class.php 第 67 行.
+NOTIC: [2] Illegal string offset 'memo' C:\work\juhe\Application\Payment\Controller\PaymentController.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array C:\work\juhe\Application\Payment\Controller\PaymentController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 111 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 105 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `pay_member` SET `balance`='265.225' WHERE `id` = 105 [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `pay_moneychange` [ RunTime:0.0032s ]
+SQL: INSERT INTO `pay_moneychange` (`userid`,`ymoney`,`money`,`gmoney`,`datetime`,`transid`,`orderid`,`lx`,`contentstr`) VALUES ('105','262.2250','3.0000','265.225','2018-11-28 08:50:01','H1128661816971994','H1128661816971994','10','2018-11-28 08:50:01委托提现操作手续费') [ RunTime:0.0008s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='0' WHERE `id` = 92 [ RunTime:0.0043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002275s ]
+
+[ 2018-11-28T09:08:20+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+
+[ 2018-11-28T09:09:01+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0005s ]
+
+[ 2018-11-28T09:09:10+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004478s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` IN ('1',' 4')  [ RunTime:0.0005s ]
+
+[ 2018-11-28T09:10:03+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002420s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` IN ('1',' 4')  [ RunTime:0.0005s ]
+
+[ 2018-11-28T09:11:08+08:00 ] 127.0.0.1 /Pay_Repost_postDf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005114s ]
+SQL: SHOW COLUMNS FROM `pay_tikuanconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_tikuanconfig` WHERE `id` = 28 AND `issystem` = 1 AND `auto_df_switch` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_for_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_for_user` WHERE `is_zd` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `status` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` IN ('5')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `id` IN ('88') AND `status` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pay_wttklist` SET `df_lock`='1' WHERE `id` = 88 AND `df_lock` = 0 [ RunTime:0.0003s ]
+
+[ 2018-11-28T10:49:22+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002036s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 109 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 118 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2018-11-28T10:49:27+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004261s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2018-11-28T10:49:27+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004261s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0015s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2018-11-28T10:49:29+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 904 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 904 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 261 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 904 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 261 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 904 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2018112810492218519182' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','20181128104929579850','10','0.3','9.7','1543373369','904','支付宝手机（WAP）','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','YYpayWap','云易支付支付宝Wap','云易支付','YYpayWap','收银台支付（云易支付支付宝wap）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2018112810492218519182','0','NMZF_69','22ee91a053dd315d5959d329770c2818','','0.00','0.0000','261','421') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+

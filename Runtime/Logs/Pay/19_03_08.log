@@ -1,0 +1,100 @@
+[ 2019-03-08T09:59:40+08:00 ] 127.0.0.1 /Pay_WJpay_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004908s ]
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key C:\work\juhe\Application\Pay\Controller\WJpayController.class.php 第 216 行.
+NOTIC: [2] openssl_free_key() expects parameter 1 to be resource, boolean given C:\work\juhe\Application\Pay\Controller\WJpayController.class.php 第 218 行.
+NOTIC: [2] openssl_public_encrypt(): key parameter is not a valid public key C:\work\juhe\Application\Pay\Controller\WJpayController.class.php 第 295 行.
+
+[ 2019-03-08T11:26:15+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given C:\work\juhe\Application\Pay\Controller\CccepaywxController.class.php 第 121 行.
+
+[ 2019-03-08T11:26:55+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given C:\work\juhe\Application\Pay\Controller\CccepaywxController.class.php 第 121 行.
+
+[ 2019-03-08T11:27:35+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given C:\work\juhe\Application\Pay\Controller\CccepaywxController.class.php 第 121 行.
+
+[ 2019-03-08T11:28:20+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given C:\work\juhe\Application\Pay\Controller\CccepaywxController.class.php 第 121 行.
+
+[ 2019-03-08T11:30:41+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012934s ]
+ERR: Call to undefined function Pay\Controller\file_get_html()
+
+[ 2019-03-08T11:34:24+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+
+[ 2019-03-08T11:34:57+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+NOTIC: [2] curl_getinfo(): supplied resource is not a valid cURL handle resource C:\work\juhe\Application\Pay\Controller\CccepaywxController.class.php 第 38 行.
+
+[ 2019-03-08T11:35:24+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+NOTIC: [2] curl_getinfo() expects parameter 1 to be resource, string given C:\work\juhe\Application\Pay\Controller\CccepaywxController.class.php 第 38 行.
+
+[ 2019-03-08T11:38:57+08:00 ] 127.0.0.1 /Pay_Cccepaywx_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002550s ]
+

@@ -1,0 +1,634 @@
+[ 2018-11-03T20:13:47+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005235s ]
+
+[ 2018-11-03T20:14:51+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html?out_trade_no=H1102245388518667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+
+[ 2018-11-03T20:15:26+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+
+[ 2018-11-03T20:15:47+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+
+[ 2018-11-03T20:16:06+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003076s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-03T20:17:35+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003529s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-03T20:17:46+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-03T20:18:52+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-11-03T20:20:19+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2018-11-03T20:31:30+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+
+[ 2018-11-03T20:35:30+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-11-03T20:35:49+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102245388518667&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002393s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-11-03T20:37:41+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102377822978513&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2018-11-03T20:37:46+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102377822978513&mchid=10090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-03T20:38:19+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102377822978513&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-03T20:39:21+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003704s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+
+[ 2018-11-03T20:41:08+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+NOTIC: [8] Undefined index: HTTP_REFERER C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 170 行.
+
+[ 2018-11-03T20:42:09+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+NOTIC: [8] Undefined index: HTTP_REFERER C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 170 行.
+
+[ 2018-11-03T20:42:46+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+
+[ 2018-11-03T20:47:53+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003562s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+
+[ 2018-11-03T20:55:23+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '20181103125523' AND `userid` = 90 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('2')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: INSERT INTO `pay_df_api_order` (`userid`,`trade_no`,`out_trade_no`,`money`,`bankname`,`subbranch`,`accountname`,`cardnumber`,`province`,`city`,`ip`,`check_status`,`extends`,`create_time`) VALUES ('90','H1103497239296990','20181103125523','100','21212','121','1212','212','1212','212','127.0.0.1','0','{\"lhh\":\"2121\"}','1541249723') [ RunTime:0.0010s ]
+
+[ 2018-11-03T20:55:39+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102377822978513&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005225s ]
+
+[ 2018-11-03T20:56:56+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102377822978513&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'H1102377822978513' AND `userid` = 90 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-11-03T21:00:46+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102377822978513&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'H1102377822978513' AND `userid` = 90 LIMIT 1   [ RunTime:0.0037s ]
+
+[ 2018-11-03T21:03:31+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102241605416912&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004637s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'H1102241605416912' AND `userid` = 90 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-03T21:04:19+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=H1102241605416912&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003985s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = 'H1102241605416912' AND `userid` = 90 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-03T21:04:49+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-03T21:04:58+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2018-11-03T21:06:34+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=428154833D60291587F2DEA5452B6643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-03T21:06:42+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-03T21:06:52+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-11-03T21:10:52+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003079s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2018-11-03T21:10:53+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003591s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2018-11-03T21:10:54+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003369s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2018-11-03T21:10:54+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002967s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2018-11-03T21:10:59+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004489s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2018-11-03T21:11:00+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002588s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009979s ]
+
+[ 2018-11-03T21:11:00+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2018-11-03T21:11:00+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2018-11-03T21:11:00+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003002s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2018-11-03T21:11:01+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001968s ]
+
+[ 2018-11-03T21:11:01+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2018-11-03T21:11:01+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004177s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2018-11-03T21:11:18+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003899s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-11-03T21:11:28+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004735s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-03T21:27:50+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005136s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2018-11-03T21:32:55+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004735s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002055s ]
+
+[ 2018-11-03T22:09:39+08:00 ] 127.0.0.1 /Payment_Dfpay_query.html?out_trade_no=20181102114656&mchid=10090&pay_md5sign=CF57C0A4679D68C40EF51125E0A74B1F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004222s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+

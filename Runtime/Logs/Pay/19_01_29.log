@@ -1,0 +1,212 @@
+[ 2019-01-29T17:30:51+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T17:32:41+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T17:35:08+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003349s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+
+[ 2019-01-29T17:38:17+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+
+[ 2019-01-29T17:46:29+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+
+[ 2019-01-29T17:47:31+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T17:48:05+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+
+[ 2019-01-29T17:48:20+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+
+[ 2019-01-29T17:48:47+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T20:52:30+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T20:53:04+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T20:53:06+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T20:57:21+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T20:57:22+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T20:58:39+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003186s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+ERR: NOAUTH Authentication required.
+
+[ 2019-01-29T21:01:28+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002404s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 12 行.
+
+[ 2019-01-29T21:02:35+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+
+[ 2019-01-29T21:02:58+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+
+[ 2019-01-29T21:04:30+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: redis C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 18 行.
+ERR: Call to a member function set() on null
+
+[ 2019-01-29T21:05:10+08:00 ] 127.0.0.1 /Pay_Charges_all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+

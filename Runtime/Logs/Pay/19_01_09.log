@@ -1,0 +1,927 @@
+[ 2019-01-09T13:30:11+08:00 ] 127.0.0.1 /Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+ERR: 无法加载控制器:OrderQuery
+
+[ 2019-01-09T13:30:21+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0029s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\core\Library\Think\Db\Driver.class.php 第 504 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\core\Library\Think\Db\Driver.class.php 第 504 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (  )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE (  ) AND (  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (  )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE (  ) AND (  ) 
+
+[ 2019-01-09T13:31:03+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_order`  [ RunTime:0.1927s ]
+
+[ 2019-01-09T13:33:23+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+
+[ 2019-01-09T13:34:48+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pay_order`  [ RunTime:0.1970s ]
+
+[ 2019-01-09T13:35:53+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_order`  [ RunTime:0.1948s ]
+
+[ 2019-01-09T13:38:04+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_order`  [ RunTime:0.2162s ]
+
+[ 2019-01-09T13:40:12+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_order` WHERE ( `pay_applydate` >= 1547012412 AND `pay_applydate` <= 1546926012  )  [ RunTime:0.0170s ]
+
+[ 2019-01-09T13:51:09+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+
+[ 2019-01-09T13:51:38+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004185s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005424s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+
+[ 2019-01-09T13:58:22+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003474s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_order` WHERE ( `pay_applydate` >= 1546927102 AND `pay_applydate` <= 1547013502  )  [ RunTime:0.0131s ]
+
+[ 2019-01-09T13:59:14+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003329s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2019-01-09T13:59:24+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003218s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2019-01-09T13:59:25+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2019-01-09T14:42:31+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_applydate` >= 1546929751  [ RunTime:0.0123s ]
+
+[ 2019-01-09T14:48:17+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_applydate` = 0  [ RunTime:0.0113s ]
+
+[ 2019-01-09T14:48:32+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003482s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_applydate` = 0  [ RunTime:0.0121s ]
+
+[ 2019-01-09T14:49:36+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0013s ]
+
+[ 2019-01-09T14:50:24+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0015s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( status = 0 and pay_applydate >= 1546930224 AND pay_applydate>1547016624 ) 
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( status = 0 and pay_applydate >= 1546930224 AND pay_applydate>1547016624 ) 
+
+[ 2019-01-09T14:50:47+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND and pay_applydate >= 1546930247 AND pay_applydate>1547016647 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( status = AND and pay_applydate >= 1546930247 AND pay_applydate>1547016647 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND and pay_applydate >= 1546930247 AND pay_applydate>1547016647 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( status = AND and pay_applydate >= 1546930247 AND pay_applydate>1547016647 ) 
+
+[ 2019-01-09T14:50:55+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pay_applydate >= 1546930255 AND pay_applydate>1547016655 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( status =0 AND and pay_applydate >= 1546930255 AND pay_applydate>1547016655 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pay_applydate >= 1546930255 AND pay_applydate>1547016655 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( status =0 AND and pay_applydate >= 1546930255 AND pay_applydate>1547016655 ) 
+
+[ 2019-01-09T14:55:24+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005016s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+ERR: 1054:Unknown column 'pay_applydate_>' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( `pay_applydate_>` = ' 1546930524 AND pay_applydate>1547016924' ) 
+ERR: 1054:Unknown column 'pay_applydate_>' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( `pay_applydate_>` = ' 1546930524 AND pay_applydate>1547016924' ) 
+
+[ 2019-01-09T14:56:12+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0008s ]
+ERR: 1054:Unknown column 'pay_applydate_>' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( `pay_applydate_>` = ' 1546930572 AND pay_applydate>1547016972' ) 
+ERR: 1054:Unknown column 'pay_applydate_>' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( `pay_applydate_>` = ' 1546930572 AND pay_applydate>1547016972' ) 
+
+[ 2019-01-09T14:56:13+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004512s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0008s ]
+ERR: 1054:Unknown column 'pay_applydate_>' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( `pay_applydate_>` = ' 1546930573 AND pay_applydate>1547016973' ) 
+ERR: 1054:Unknown column 'pay_applydate_>' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pay_order` WHERE ( `pay_applydate_>` = ' 1546930573 AND pay_applydate>1547016973' ) 
+
+[ 2019-01-09T14:56:36+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005016s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_applydate` = 0  [ RunTime:0.0178s ]
+
+[ 2019-01-09T14:57:06+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_applydate` = 0  [ RunTime:0.0117s ]
+
+[ 2019-01-09T14:57:07+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_applydate` = 0  [ RunTime:0.0111s ]
+
+[ 2019-01-09T14:58:15+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `pay_order` WHERE `id` <> 1 AND ( pay_applydate >= 1546930695 AND pay_applydate>1547017095 )  [ RunTime:0.0121s ]
+
+[ 2019-01-09T14:58:26+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE ( pay_applydate >= 1546930706 AND pay_applydate>1547017106 )  [ RunTime:0.0129s ]
+
+[ 2019-01-09T15:28:01+08:00 ] 127.0.0.1 /Pay_Pay_orderQuery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002775s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE ( pay_applydate >= 1546932481 AND pay_applydate>1547018881 )  [ RunTime:0.0132s ]
+
+[ 2019-01-09T21:53:13+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005776s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0789s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+
+[ 2019-01-09T21:53:18+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2019-01-09T21:54:18+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2019-01-09T21:54:25+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003403s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国银行 - assumed '中国银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2019-01-09T21:54:42+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2019-01-09T21:54:50+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-01-09T21:54:52+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2019-01-09T21:55:06+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004984s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2019-01-09T21:55:08+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2019-01-09T21:55:09+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2019-01-09T21:56:25+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 470 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+

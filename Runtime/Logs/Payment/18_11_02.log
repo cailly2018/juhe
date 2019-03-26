@@ -1,0 +1,188 @@
+[ 2018-11-02T09:51:08+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002623s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-02T09:54:05+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+
+[ 2018-11-02T09:54:37+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005681s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '19700101000000' AND `userid` = 90 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: INSERT INTO `pay_df_api_order` (`userid`,`trade_no`,`out_trade_no`,`money`,`bankname`,`subbranch`,`accountname`,`cardnumber`,`province`,`city`,`ip`,`check_status`,`extends`,`create_time`) VALUES ('90','H1102236775278698','19700101000000','1000','中国银行','深圳支行','蔡晓黎','687434973957485794','广东省','深圳市','127.0.0.1','0','{\"lhh\":\"21212\"}','1541123677') [ RunTime:0.0019s ]
+
+[ 2018-11-02T10:02:40+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '19700101000000' AND `userid` = 90 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0016s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('2')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: INSERT INTO `pay_df_api_order` (`userid`,`trade_no`,`out_trade_no`,`money`,`bankname`,`subbranch`,`accountname`,`cardnumber`,`province`,`city`,`ip`,`check_status`,`extends`,`create_time`) VALUES ('90','H1102241605416911','19700101000000','1000','中国银行','深圳支行','蔡晓黎','687434973957485794','广东省','深圳市','127.0.0.1','0','{\"lhh\":\"21212\"}','1541124160') [ RunTime:0.0008s ]
+
+[ 2018-11-02T10:02:59+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '19700101000000' AND `userid` = 90 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-02T10:07:00+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006633s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '19700101000000' AND `userid` = 90 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-02T10:08:01+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003999s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '19700101000000' AND `userid` = 90 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-02T10:08:58+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006641s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '19700101000000' AND `userid` = 90 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('2')  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: INSERT INTO `pay_df_api_order` (`userid`,`trade_no`,`out_trade_no`,`money`,`bankname`,`subbranch`,`accountname`,`cardnumber`,`province`,`city`,`ip`,`check_status`,`extends`,`create_time`) VALUES ('90','H1102245388518667','19700101000000','100','中国工行','深圳支行','蔡晓黎','222222666666888888888','广东省','深圳市','127.0.0.1','0','{\"lhh\":\"204\"}','1541124538') [ RunTime:0.0012s ]
+
+[ 2018-11-02T19:44:02+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002925s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '19700101000000' AND `userid` = 90 LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2018-11-02T19:46:56+08:00 ] 127.0.0.1 /Payment_Dfpay_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+NOTIC: [2] Creating default object from empty value C:\work\juhe\Application\Common\Common\function.php 第 890 行.
+SQL: SHOW COLUMNS FROM `pay_df_api_order` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_df_api_order` WHERE `out_trade_no` = '20181102114656' AND `userid` = 90 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `pay_pay_for_another` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_pay_channel_extend_fields` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `pay_pay_channel_extend_fields` WHERE `channel_id` IN ('2')  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: INSERT INTO `pay_df_api_order` (`userid`,`trade_no`,`out_trade_no`,`money`,`bankname`,`subbranch`,`accountname`,`cardnumber`,`province`,`city`,`ip`,`check_status`,`extends`,`create_time`) VALUES ('90','H1102592164859890','20181102114656','100','中国工行','深圳支行','蔡晓黎','89999668888','广东省','深圳市','127.0.0.1','0','{\"lhh\":\"90\"}','1541159216') [ RunTime:0.0016s ]
+

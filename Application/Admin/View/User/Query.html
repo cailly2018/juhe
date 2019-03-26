@@ -1,0 +1,62 @@
+<include file="Public/header"/>
+<div class="row">
+    <div class="col-sm-12">
+        <form class="layui-form" action="" id="profile">
+            <input type="hidden" name="userid" value="<{$u.id}>">
+            <div class="layui-form-item">
+                <label class="layui-form-label">用户级别：</label>
+                <div class="layui-input-inline">
+                    <select name="u[products]" lay-verify="required" lay-search="">
+                        <option value=""></option>
+                        <foreach name="products" item="v" key="k">
+                            <option value="<{$v['code']}>_<{$v['title']}>"><{$v['title']}></option>
+                        </foreach>
+                    </select>
+                </div>
+                <button class="layui-btn" lay-submit="submit" lay-filter="save">查询</button>
+            </div>
+        </form>
+    </div>
+    <div class="ibox-content">
+        <table class="layui-table" lay-skin="line" id="mytable">
+            <thead>
+            <tr>
+                <th>代付渠道</th>
+                <th>余额</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+<include file="Public/footer"/>
+<script>
+    layui.use(['layer', 'form','laydate'], function(){
+        var form = layui.form
+            ,laydate = layui.laydate
+            ,layer = layui.layer;
+        //监听提交
+        form.on('submit(save)', function(data){
+            $.ajax({
+                url:"<{:U('User/saveQuery')}>",
+                type:"post",
+                data:$('#profile').serialize(),
+                success:function(res){
+                    var res = eval('(' + res + ')');
+
+                    if(res.code){
+                        layer.alert('查询成功');
+                        $("#mytable").append("<tr><td>"+res.title+"</td><td>"+res.money+"</td></tr>")
+                    }
+                }
+            });
+            return false;
+        });
+    });
+</script>
+<!--统计代码，可删除-->
+</body>
+</html>

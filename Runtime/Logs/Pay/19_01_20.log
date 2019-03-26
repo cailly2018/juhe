@@ -1,0 +1,246 @@
+[ 2019-01-20T11:31:17+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006098s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 450 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 450 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2019-01-20T11:31:21+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003306s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2019-01-20T11:31:22+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2019-01-20T11:31:24+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0011s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 902 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 902 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `pay_channel` SET `paying_money`='0' WHERE `id` = 271 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 AND `open_charge` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 271 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 902 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 271 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2019012011311713875196' LIMIT 1   [ RunTime:0.0193s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','S120550836760021','1','0.027','0.973','1547955083','902','微信扫码支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','BA1pay','bnwxFix银行','银行','BA1pay','收银台支付（bnwxFixi银行）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2019012011311713875196','0','00010001','f92bb617b8b6d74ef129a6ef','00010001000000000001','0.0045','0.0045','271','431') [ RunTime:0.0015s ]
+
+[ 2019-01-20T21:40:54+08:00 ] 127.0.0.1 /Pay_Charges_test_mid_10112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003341s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 450 行.
+NOTIC: [8] Undefined variable: icon C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 450 行.
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_systembank` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_systembank` WHERE `is_off` = 1  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 12 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 13 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 15 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 16 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 18 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 19 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 21 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [2] Use of undefined constant 中国农业银行 - assumed '中国农业银行' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 43 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 111 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 113 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 115 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 117 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 119 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 120 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 122 行.
+NOTIC: [8] Undefined variable: siteurl C:\work\juhe\Runtime\Cache\Pay\fefb51bba43500453344a526b2b293b1.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2019-01-20T21:40:59+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2019-01-20T21:41:00+08:00 ] 127.0.0.1 /Pay_Charges_checkmd5str.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+NOTIC: [2] Declaration of Pay\Controller\ChargesController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) C:\work\juhe\Application\Pay\Controller\ChargesController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT `apikey` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2019-01-20T21:41:01+08:00 ] 127.0.0.1 /Pay_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0011s ]
+SQL: SELECT `is_repeat_order` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_user_riskcontrol_config` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`unit_paying_number`,`unit_frist_paying_time`,`unit_paying_amount`,`paying_money`,`last_paying_time` FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `user_id` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_user_riskcontrol_config` WHERE `is_system` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_product` WHERE `id` = 902 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_product_user` WHERE `pid` = 902 AND `userid` = 112 AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_channel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `pay_channel` SET `paying_money`='0' WHERE `id` = 271 [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 AND `open_charge` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 271 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_userrate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_userrate` WHERE `userid` = 112 AND `payapiid` = 902 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_channel` WHERE `id` = 271 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_channel_account` WHERE `channel_id` = 271 AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_channel_account` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_product` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_order` WHERE `out_trade_id` = 'E2019012021405473896554' LIMIT 1   [ RunTime:0.0402s ]
+SQL: INSERT INTO `pay_order` (`pay_memberid`,`pay_orderid`,`pay_amount`,`pay_poundage`,`pay_actualamount`,`pay_applydate`,`pay_bankcode`,`pay_bankname`,`pay_notifyurl`,`pay_callbackurl`,`pay_status`,`pay_tongdao`,`pay_zh_tongdao`,`pay_channel_account`,`pay_ytongdao`,`pay_yzh_tongdao`,`pay_tjurl`,`pay_productname`,`attach`,`out_trade_id`,`ddlx`,`memberid`,`key`,`account`,`cost`,`cost_rate`,`channel_id`,`account_id`) VALUES ('10112','S120916610896487','1','0.027','0.973','1547991661','902','微信扫码支付','http://www.dlaravel.com/','http://www.dlaravel.com/admin/login','0','BA1pay','bnwxFix银行','银行','BA1pay','收银台支付（bnwxFixi银行）','http://www.juhe.com/Pay_Charges_test_mid_10112.html','','','E2019012021405473896554','0','00010001','f92bb617b8b6d74ef129a6ef','00010001000000000001','0.0045','0.0045','271','431') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: return C:\work\juhe\Application\Pay\Controller\BA1payController.class.php 第 45 行.
+NOTIC: [8] Undefined index: callbackurl C:\work\juhe\Application\Pay\Controller\BA1payController.class.php 第 51 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\BA1payController.class.php 第 56 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Application\Pay\Controller\BA1payController.class.php 第 58 行.
+NOTIC: [8] Undefined index: amount C:\work\juhe\Application\Pay\Controller\BA1payController.class.php 第 60 行.
+NOTIC: [8] Undefined index: pay_memberid C:\work\juhe\Application\Pay\Controller\BA1payController.class.php 第 69 行.
+

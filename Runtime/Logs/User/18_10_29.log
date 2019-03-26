@@ -1,0 +1,657 @@
+[ 2018-10-29T09:48:20+08:00 ] 127.0.0.1 /agent_Login_test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002866s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pay_product` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_product` WHERE `isdisplay` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: products C:\work\juhe\Runtime\Cache\User\f8b656baee950fa8830647b73edc728c.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2018-10-29T10:55:03+08:00 ] 127.0.0.1 /index.php?s=/User_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004596s ]
+
+[ 2018-10-29T10:55:03+08:00 ] 127.0.0.1 /agent_Login_verifycode.html?t=1540781703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002663s ]
+
+[ 2018-10-29T15:50:25+08:00 ] 127.0.0.1 /user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003149s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0028s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2] Use of undefined constant agent_cate - assumed 'agent_cate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 53 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 58 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 69 行.
+NOTIC: [2] Use of undefined constant open_charge - assumed 'open_charge' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 69 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 102 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 115 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 123 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 137 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\d7a7632f153cf12d0db44c934c28bcfe.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2018-10-29T15:50:25+08:00 ] 127.0.0.1 /agent_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003510s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0027s ]
+SQL: SELECT SUM( pay_actualamount ) AS total, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2018-10-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2018-10-31' ) AND pay_status>=1 AND pay_memberid=10090  GROUP BY DATETIME [ RunTime:0.0010s ]
+SQL: SELECT COUNT( id ) AS num, FROM_UNIXTIME( pay_successdate,  '%Y-%m-%d' ) AS DATETIME
+FROM pay_order WHERE pay_successdate >= UNIX_TIMESTAMP(  '2018-10-01' ) AND pay_successdate < UNIX_TIMESTAMP(  '2018-10-31' ) AND pay_status>=1 AND pay_memberid=10090  GROUP BY DATETIME [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `pay_article` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pay_article` WHERE `status` = 1 AND `groupid` IN ('0','1') ORDER BY id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `pay_loginrecord` WHERE `userid` = 90 ORDER BY id desc LIMIT 2   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_applydate` BETWEEN 1540742400 AND 1540828799 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_successdate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_applydate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_applydate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_successdate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: ipItem C:\work\juhe\Application\User\Controller\IndexController.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [2] Illegal string offset 'loginip' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 29 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 29 行.
+NOTIC: [2] Illegal string offset 'loginaddress' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 29 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 29 行.
+NOTIC: [2] Illegal string offset 'logindatetime' C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 29 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 29 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 37 行.
+NOTIC: [2] Use of undefined constant groupid - assumed 'groupid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\0a2302724c4cbc626c8639028f086c96.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003833s ]
+
+[ 2018-10-29T15:50:28+08:00 ] 127.0.0.1 /agent_Account_link.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0037s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2018-10-29T15:59:15+08:00 ] 127.0.0.1 /agent_Order_index_status_2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+NOTIC: [2] Declaration of User\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\work\juhe\Application\User\Controller\OrderController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0012s ]
+SQL: SELECT pay_product.name,pay_product.id,pay_product.code FROM `pay_product_user` LEFT JOIN pay_product ON pay_product.id = pay_product_user.pid  WHERE pay_product_user.status = 1 AND pay_product_user.userid = '90'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_status` = 2 AND `isdel` = 0 AND `pay_memberid` = 10090 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(pay_amount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_successdate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(pay_actualamount) AS tp_sum FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_successdate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_successdate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` IN ('1','2') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_successdate` BETWEEN 1540742400 AND 1540828799 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT sum(`pay_amount`) pay_amount,sum(`pay_actualamount`) pay_actualamount,count(`id`) success_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_status` IN ('1',' 2') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0025s ]
+SQL: SELECT SUM(freeze_money) AS tp_sum FROM pay_complaints_deposit as C LEFT JOIN pay_order AS O ON C.pay_orderid=O.pay_orderid  WHERE C.user_id = '90' AND C.status = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(freeze_money) AS tp_sum FROM pay_complaints_deposit as C LEFT JOIN pay_order AS O ON C.pay_orderid=O.pay_orderid  WHERE C.user_id = '90' AND C.status = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_status` = 2 AND `isdel` = 0 AND `pay_memberid` = 10090 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 43 行.
+NOTIC: [8] Undefined index: body C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 47 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 51 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 55 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 78 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 78 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 79 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 79 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 157 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 157 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 158 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 158 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 159 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 159 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 160 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 160 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 161 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 161 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 162 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 162 行.
+NOTIC: [2] Use of undefined constant orderid - assumed 'orderid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant createtime - assumed 'createtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant successtime - assumed 'successtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2018-10-29T15:59:16+08:00 ] 127.0.0.1 /agent_Order_index_status_4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+NOTIC: [2] Declaration of User\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\work\juhe\Application\User\Controller\OrderController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0005s ]
+SQL: SELECT pay_product.name,pay_product.id,pay_product.code FROM `pay_product_user` LEFT JOIN pay_product ON pay_product.id = pay_product_user.pid  WHERE pay_product_user.status = 1 AND pay_product_user.userid = '90'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_status` = 0 AND `isdel` = 0 AND `pay_memberid` = 10090 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT sum(`pay_amount`) pay_amount,sum(`pay_actualamount`) pay_actualamount,count(`id`) success_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_status` IN ('1',' 2') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0014s ]
+SQL: SELECT SUM(freeze_money) AS tp_sum FROM pay_complaints_deposit as C LEFT JOIN pay_order AS O ON C.pay_orderid=O.pay_orderid  WHERE C.user_id = '90' AND C.status = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(freeze_money) AS tp_sum FROM pay_complaints_deposit as C LEFT JOIN pay_order AS O ON C.pay_orderid=O.pay_orderid  WHERE C.user_id = '90' AND C.status = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_status` = 0 AND `isdel` = 0 AND `pay_memberid` = 10090 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 43 行.
+NOTIC: [8] Undefined index: body C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 47 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 51 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 55 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 78 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 78 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 79 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 79 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 157 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 157 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 158 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 158 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 159 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 159 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 160 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 160 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 161 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 161 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 162 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 162 行.
+NOTIC: [2] Use of undefined constant orderid - assumed 'orderid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant createtime - assumed 'createtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant successtime - assumed 'successtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-10-29T15:59:50+08:00 ] 127.0.0.1 /agent_Order_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+NOTIC: [2] Declaration of User\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\work\juhe\Application\User\Controller\OrderController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0006s ]
+SQL: SELECT `id` as uid,`username`,`password`,`groupid`,`parentid`,`salt`,`balance`,`blockedbalance`,`email`,`realname`,`authorized`,`apidomain`,`apikey`,`status`,`mobile`,`receiver`,`agent_cate`,`df_api`,`login_ip`,`open_charge`,`google_secret_key`,`session_random`,`regdatetime` FROM `pay_member` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_product_user` [ RunTime:0.0004s ]
+SQL: SELECT pay_product.name,pay_product.id,pay_product.code FROM `pay_product_user` LEFT JOIN pay_product ON pay_product.id = pay_product_user.pid  WHERE pay_product_user.status = 1 AND pay_product_user.userid = '90'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `isdel` = 0 AND `pay_memberid` = 10090 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT sum(`pay_amount`) pay_amount,sum(`pay_actualamount`) pay_actualamount,count(`id`) success_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_status` IN ('1',' 2') LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_memberid` = 10090 AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pay_complaints_deposit` [ RunTime:0.0025s ]
+SQL: SELECT SUM(freeze_money) AS tp_sum FROM pay_complaints_deposit as C LEFT JOIN pay_order AS O ON C.pay_orderid=O.pay_orderid  WHERE C.user_id = '90' AND C.status = 0 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT SUM(freeze_money) AS tp_sum FROM pay_complaints_deposit as C LEFT JOIN pay_order AS O ON C.pay_orderid=O.pay_orderid  WHERE C.user_id = '90' AND C.status = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pay_order` WHERE `isdel` = 0 AND `pay_memberid` = 10090 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 43 行.
+NOTIC: [8] Undefined index: body C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 47 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 51 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 55 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 62 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 78 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 78 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 79 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 79 行.
+NOTIC: [8] Undefined index: status C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 93 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 125 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [2] Use of undefined constant out_trade_id - assumed 'out_trade_id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 128 行.
+NOTIC: [8] Undefined index: del C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 129 行.
+NOTIC: [2] Use of undefined constant pay_successdate - assumed 'pay_successdate' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 136 行.
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 144 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 157 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 157 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 158 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 158 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 159 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 159 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 160 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 160 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 161 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 161 行.
+NOTIC: [2] Use of undefined constant rows - assumed 'rows' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 162 行.
+NOTIC: [8] Undefined index: rows C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 162 行.
+NOTIC: [2] Use of undefined constant orderid - assumed 'orderid' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: orderid C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant createtime - assumed 'createtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: createtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant successtime - assumed 'successtime' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: successtime C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant tongdao - assumed 'tongdao' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: tongdao C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant bank - assumed 'bank' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: bank C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: status C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [2] Use of undefined constant ddlx - assumed 'ddlx' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+NOTIC: [8] Undefined index: ddlx C:\work\juhe\Runtime\Cache\User\9efe4e2e7d8b5d087d2c6ca784b0e3f7.php 第 225 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2018-10-29T16:11:36+08:00 ] 127.0.0.1 /index.php?s=/User_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2018-10-29T16:11:36+08:00 ] 127.0.0.1 /agent_Login_verifycode.html?t=1540800696
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2018-10-29T21:13:49+08:00 ] 127.0.0.1 /user_Login_loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+

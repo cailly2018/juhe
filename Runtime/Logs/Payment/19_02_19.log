@@ -1,0 +1,202 @@
+[ 2019-02-19T14:14:21+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003491s ]
+
+[ 2019-02-19T14:14:33+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2019-02-19T14:14:37+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2019-02-19T14:14:52+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003736s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006207s ]
+
+[ 2019-02-19T14:15:07+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003752s ]
+
+[ 2019-02-19T14:15:09+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+
+[ 2019-02-19T14:15:23+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006054s ]
+
+[ 2019-02-19T16:32:48+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005037s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'RRpayDf' AND `mch_id` = 1297 LIMIT 1   [ RunTime:0.0021s ]
+NOTIC: [2] Illegal string offset 'userOrderId' C:\work\juhe\Application\Payment\Controller\RRpayDfController.class.php 第 98 行.
+NOTIC: [2] Illegal string offset 'orderStatus' C:\work\juhe\Application\Payment\Controller\RRpayDfController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `orderid` = '{' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2019-02-19T16:32:48+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003714s ]
+
+[ 2019-02-19T16:33:43+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+
+[ 2019-02-19T16:33:43+08:00 ] 127.0.0.1 /Payment_RRpayDf_test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+
+[ 2019-02-19T17:54:32+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004157s ]
+
+[ 2019-02-19T17:55:09+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003478s ]
+
+[ 2019-02-19T17:55:36+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'RRpayDf' AND `mch_id` = 1297 LIMIT 1   [ RunTime:0.0031s ]
+
+[ 2019-02-19T17:55:49+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'RRpayDf' AND `mch_id` = 1297 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-02-19T17:56:37+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'RRpayDf' AND `mch_id` = 1297 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-02-19T17:56:49+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005568s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'RRpayDf' AND `mch_id` = 1297 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-02-19T17:57:18+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'RRpayDf' AND `mch_id` = 1297 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `orderid` = 'I0219588885841910' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2019-02-19T17:57:31+08:00 ] 127.0.0.1 /Payment_RRpayDf_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002926s ]
+SQL: SHOW COLUMNS FROM `pay_pay_for_another` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_pay_for_another` WHERE `code` = 'RRpayDf' AND `mch_id` = 1297 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_wttklist` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_wttklist` WHERE `orderid` = 'I0219588885841910' LIMIT 1   [ RunTime:0.0004s ]
+

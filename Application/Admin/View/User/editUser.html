@@ -1,0 +1,254 @@
+<include file="Public/header"/>
+        <div class="row">
+            <div class="col-sm-12">
+			<form class="layui-form" action="" id="profile">
+			<input type="hidden" name="userid" value="<{$u.id}>">
+
+				<div class="layui-form-item">
+					<label class="layui-form-label">上级商户号：</label>
+					<div class="layui-input-inline">
+						<input type="text" name="u[parentid]" autocomplete="off"  autocomplete="off"
+							   value="<{$u.parentid}>"
+							   placeholder="上级商户号"
+							   class="layui-input"
+						>
+					</div>
+				</div>
+
+			  <div class="layui-form-item">
+				<label class="layui-form-label">用户名：</label>
+				<div class="layui-input-inline">
+				  <input type="text" name="u[username]" lay-verify="required" autocomplete="off"
+						 value="<{$u.username}>"
+						 placeholder="用户名"
+						 class="layui-input"
+						 <if condition="$u.id gt 0">disabled="disabled"</if>
+						 >
+				</div>
+			  </div>
+			  <div class="layui-form-item">
+				<label class="layui-form-label">姓名：</label>
+				<div class="layui-input-inline">
+				  <input type="text" name="u[realname]" lay-verify="required" autocomplete="off"
+						 value="<{$u.realname}>"
+						 placeholder="姓名"
+						 class="layui-input">
+				</div>
+			  </div>
+			  <div class="layui-form-item">
+				<label class="layui-form-label">性别：</label>
+				<div class="layui-input-inline">
+				  <select name="u[sex]" lay-search="">
+					<option value=""></option>
+					<option <if condition="$u['sex'] eq 0">selected</if> value="0">女</option>
+					<option <if condition="$u['sex'] eq 1">selected</if> value="1">男</option>
+				  </select>
+				</div>
+			  </div>
+			  
+			  <div class="layui-form-item">
+				<label class="layui-form-label">身份证号：</label>
+				<div class="layui-input-inline">
+				  <input type="text" name="u[sfznumber]" lay-verify="required" autocomplete="off" value="<{$u.sfznumber}>" placeholder="身份证号" class="layui-input">
+				</div>
+			  </div>
+			  <div class="layui-form-item">
+				<label class="layui-form-label">出生日期：</label>
+				<div class="layui-inline">
+				  <input class="layui-input" name="u[birthday]" placeholder="出生日期" id="birthday" value="<{$u[birthday]|date="Y-m-d",###}>">
+				</div>
+			  </div>
+			  
+			  <div class="layui-form-item">
+				<label class="layui-form-label">手机号码：</label>
+				<div class="layui-input-inline">
+				  <input type="text" autocomplete="off"  value="<{$u.mobile}>"  readonly placeholder="手机号码" class="layui-input">
+				</div>
+			  </div>
+			  
+			  <div class="layui-form-item">
+				<label class="layui-form-label">联系QQ：</label>
+				<div class="layui-input-inline">
+				  <input type="text" name="u[qq]" autocomplete="off" value="<{$u.qq}>" placeholder="联系QQ"
+						 class="layui-input">
+				</div>
+			  </div>
+
+			  <div class="layui-form-item">
+				<label class="layui-form-label">Email：</label>
+				<div class="layui-input-inline">
+				  <input type="text" name="u[email]" lay-verify="required" autocomplete="off" value="<{$u.email}>" placeholder="Email" class="layui-input">
+				</div>
+			  </div>
+			  
+			  <div class="layui-form-item">
+				<label class="layui-form-label">用户级别：</label>
+				<div class="layui-input-inline">
+				  <select name="u[groupid]" lay-verify="required" lay-search="">
+					<option value=""></option>
+						<foreach name="groupId" item="v" key="k">
+	                      <option <if condition="$u['groupid'] eq $k">selected</if>
+							  value="<{$k}>"><{$v}></option>
+	                    </foreach>
+				  </select>
+				</div>
+			  </div>
+			  
+			  <div class="layui-form-item">
+				<label class="layui-form-label">联系地址：</label>
+				<div class="layui-inline">
+					<div class="layui-input-inline">
+					  <input type="text" name="u[address]" lay-verify="required" autocomplete="off" value="<{$u.address}>" placeholder="联系地址" class="layui-input">
+					</div>
+				</div>
+			</div>
+
+  			<div class="layui-form-item layui-form-text">
+    			<label class="layui-form-label">登录IP白名单：</label>
+    			<div class="layui-input-block">
+      				<textarea name="u[login_ip]" placeholder="请输入内容" class="layui-textarea"><{$u[login_ip]}></textarea>
+    			</div>
+  			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">代付API接口状态：</label>
+				<div class="layui-input-block">
+					<input type="radio" name="u[df_api]" lay-filter="df_api" value="1" title="开启" <if
+						condition="$u['df_api'] eq 1">checked
+				</if>>
+					<input type="radio" name="u[df_api]" lay-filter="df_api" value="0" title="关闭" <if
+						condition="$u['df_api'] eq 0">checked
+				</if>>
+				</div>
+			</div>
+			<div class="layui-form-item" id="df_auto_check" <if  condition="$u['df_api'] eq 0">style="display: none;"</if>>
+			<label class="layui-form-label">代付API自动审核：</label>
+			<div class="layui-input-block">
+				<input type="radio" name="u[df_auto_check]" lay-filter="df_auto_check" value="1" title="开启" <if
+					condition="$u['df_auto_check'] eq 1">checked
+			</if>>
+				<input type="radio" name="u[df_auto_check]" lay-filter="df_auto_check" value="0" title="关闭" <if
+					condition="$u['df_auto_check'] eq 0">checked
+			</if>>
+			</div>
+		</div>
+		<div class="layui-form-item" id="df_domain" <if  condition="$u['df_api'] eq 0">style="display: none;"</if>>
+			<label class="layui-form-label">代付域名报备：</label>
+			<div class="layui-input-block">
+				<textarea name="u[df_domain]" placeholder="如：www.baidu.com，多个域名请换行，一行一个域名" class="layui-textarea"><{$u[df_domain]}></textarea>
+			</div>
+			<label class="layui-form-label"></label><div class="layui-form-mid layui-word-aux">注意：无需填写http://或https://，也不需要填写具体路径，结尾不加 /，一行一个域名。下级商户只能从这些域名发起代付请求！</div>
+		</div>
+		<div class="layui-form-item" id="df_ip" <if  condition="$u['df_api'] eq 0">style="display: none;"</if>>
+			<label class="layui-form-label">代付IP报备：</label>
+		<div class="layui-input-block">
+			<textarea name="u[df_ip]" id="text"  placeholder="如：127.0.0.1，多个IP请换行，一行一个IP" class="layui-textarea"><{$u[df_ip]}></textarea>
+		</div>
+		<label class="layui-form-label"></label><div class="layui-form-mid layui-word-aux">注意：请填写发起代付请求的服务器公网IP一行一个IP地址。</div>
+       </div>
+       <input id="df_ipsss" type="hidden" value="<{$u[df_ip]}>">
+       <div class="layui-form-item" style="margin-top: 50px;" id="send">
+			<label class="layui-form-label">验证码：</label>
+			<div class="layui-input-inline">
+				<input type="text" autocomplete="off" class="layui-input" id="code" name="code" value=""  placeholder="">
+			</div>
+			<div class="layui-input-inline">
+
+				<a href="javascript:;" id="sendBtn" data-bind='' class="layui-btn" >发送验证码</a>
+
+			</div>
+       </div>
+			<div class="layui-form-item">
+				<div class="layui-input-block">
+				  	<button class="layui-btn" lay-submit="submit" lay-filter="save">提交保存</button>
+				</div>
+			</div>
+<input id="send_st" name="send_st" type="hidden" value="0">
+<input id="df_auto_checks" type="hidden" value="<{$u['df_auto_check'] }>">
+
+			</form>
+            </div>
+        </div>
+<include file="Public/footer"/>
+<script src="/Public/Front/js/Util.js" charset="utf-8"></script>
+<script>
+layui.use(['layer', 'form','laydate'], function(){
+  var form = layui.form
+  ,laydate = layui.laydate
+  ,layer = layui.layer;
+
+    //常规用法
+    laydate.render({
+        elem: '#birthday'
+    });
+    $('#send').hide();
+
+    form.on('radio(df_api)',function(data){
+        if(data.value == 1) {
+            $('#df_auto_check').show();
+            $('#df_domain').show();
+            $('#df_ip').show();
+
+            if($('#df_auto_checks').val()==0){
+                $('#send').show();
+			}
+            $('#send_st').val(1);
+        } else {
+            $('#df_auto_check').hide();
+            $('#df_domain').hide();
+            $('#df_ip').hide();
+            $('#send').hide();
+            $('#send_st').val(0);
+        }
+    });
+
+  //监听提交
+  form.on('submit(save)', function(data){
+      if($('#code').val() == '' && $('#send_st').val()==1){
+          layer.alert("验证码不能为空");
+          return false;
+      }
+    $.ajax({
+		url:"<{:U('User/saveUser')}>",
+		type:"post",
+		data:$('#profile').serialize(),
+		success:function(res){
+			if(res.status){
+				layer.alert("编辑成功", {icon: 6},function () {
+					parent.location.reload();
+					var index = parent.layer.getFrameIndex(window.name);
+					parent.layer.close(index);
+				});
+			}else{
+                layer.alert("操作失败:" + res.msg, {icon: 5},function (index) {
+                    layer.close(index)
+                });
+			}
+		}
+	});
+    return false;
+  });
+});
+
+$('#sendBtn').click(function(){
+    var sendUrl = "<{$sendUrl}>";
+    var mobile = "<{$mobile}>";
+    sendSms(this, mobile, sendUrl);
+});
+
+$('#text').keyup(function() {
+
+    if($('#df_ipsss').val() == $('#text').val() ){
+        $('#send').hide();
+        $('#send_st').val(0);
+	}else {
+        $('#send').show();
+        $('#send_st').val(1);
+	}
+
+});
+
+
+</script>
+<!--统计代码，可删除-->
+</body>
+</html>

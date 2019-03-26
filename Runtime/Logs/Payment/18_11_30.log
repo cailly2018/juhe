@@ -1,0 +1,511 @@
+[ 2018-11-30T11:13:01+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006708s ]
+
+[ 2018-11-30T11:13:37+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004544s ]
+
+[ 2018-11-30T11:14:55+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined variable: user_id C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SELECT * FROM `pay_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0037s ]
+
+[ 2018-11-30T11:15:28+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2018-11-30T11:15:57+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-11-30T11:16:26+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003462s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-30T11:16:42+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-30T11:17:32+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003112s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2018-11-30T11:23:01+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003965s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T11:26:46+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+ERR: syntax error, unexpected '}'
+
+[ 2018-11-30T11:27:03+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T11:27:30+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004619s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T11:27:35+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0107s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T11:27:40+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004326s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2018-11-30T11:30:08+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002751s ]
+
+[ 2018-11-30T12:42:57+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003122s ]
+
+[ 2018-11-30T14:24:02+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T14:24:41+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004668s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T14:25:26+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002875s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T14:25:30+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T14:25:48+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T14:26:15+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005446s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+
+[ 2018-11-30T14:26:24+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002977s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 39 行.
+
+[ 2018-11-30T14:26:34+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005992s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 40 行.
+
+[ 2018-11-30T14:27:06+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-30T14:27:27+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2018-11-30T14:30:47+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=53E8EB826D482A268987EEE8F95BFDA9&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 70 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 71 行.
+
+[ 2018-11-30T14:31:20+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=53E8EB826D482A268987EEE8F95BFDA9&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0057s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 70 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 71 行.
+
+[ 2018-11-30T14:31:29+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 70 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 71 行.
+
+[ 2018-11-30T14:31:41+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005778s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 70 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 71 行.
+
+[ 2018-11-30T14:31:57+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2018-11-30T14:33:09+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] ksort() expects parameter 1 to be array, string given C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 69 行.
+
+[ 2018-11-30T14:34:00+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+NOTIC: [2] Illegal string offset 'mchid' C:\work\juhe\Application\Payment\Controller\DfpayController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-30T14:34:20+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002552s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005491s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-11-30T14:34:29+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-11-30T14:38:09+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=53E8EB826D482A268987EEE8F95BFDA9&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2018-11-30T19:02:57+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=F357CEEB3B0594A1ECC2D5560DE724F0&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-30T19:02:59+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=53E8EB826D482A268987EEE8F95BFDA9&mchid=10113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 113 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2018-11-30T19:03:01+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=3EA2B59ECD0FDBF0549500E3F4B1E9AA&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001992s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-30T19:03:02+08:00 ] 127.0.0.1 /Payment_Dfpay_getBalance.html?pay_md5sign=2132&mchid=10112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003114s ]
+SQL: SHOW COLUMNS FROM `pay_member` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_member` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0014s ]
+

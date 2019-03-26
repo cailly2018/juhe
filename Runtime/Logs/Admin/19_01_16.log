@@ -1,0 +1,311 @@
+[ 2019-01-16T19:05:42+08:00 ] 127.0.0.1 /manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+
+[ 2019-01-16T19:05:42+08:00 ] 127.0.0.1 /manage_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2019-01-16T19:05:42+08:00 ] 127.0.0.1 /manage_Login_verifycode.html?t=1547636742
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2019-01-16T19:05:57+08:00 ] 127.0.0.1 /manage_Login_checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+
+[ 2019-01-16T19:05:58+08:00 ] 127.0.0.1 /manage_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2019-01-16T19:05:58+08:00 ] 127.0.0.1 /manage_Login_verifycode.html?t=1547636758
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2019-01-16T19:08:33+08:00 ] 127.0.0.1 /manage_Login_checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002114s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `pay_admin` WHERE `username` = 'admin' AND `password` = '5c19392c28bd0d4b46527ffe32306b28' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-01-16T19:08:34+08:00 ] 127.0.0.1 /manage_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003073s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003632s ]
+
+[ 2019-01-16T19:08:35+08:00 ] 127.0.0.1 /manage_Login_verifycode.html?t=1547636914
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004116s ]
+
+[ 2019-01-16T19:08:47+08:00 ] 127.0.0.1 /manage_Login_checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pay_admin` WHERE `username` = 'admin' AND `password` = '5c19392c28bd0d4b46527ffe32306b28' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-16T19:08:48+08:00 ] 127.0.0.1 /manage_Login_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2019-01-16T19:08:48+08:00 ] 127.0.0.1 /manage_Login_verifycode.html?t=1547636928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2019-01-16T19:09:05+08:00 ] 127.0.0.1 /manage_Login_checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_admin` WHERE `username` = 'cailly' AND `password` = '7aa5e695be95cdd64a88410a64dfe2c1' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP C:\work\juhe\core\Common\functions.php 第 1456 行.
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0017s ]
+SQL: SELECT `login_ip` FROM `pay_websiteconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_loginrecord` [ RunTime:0.0034s ]
+SQL: INSERT INTO `pay_loginrecord` (`userid`,`logindatetime`,`loginip`,`loginaddress`,`type`) VALUES ('6','2019-01-16 19:09:05','127.0.0.1','本机地址-','1') [ RunTime:0.0026s ]
+SQL: UPDATE `pay_admin` SET `session_random`='q62xegnDqZ7cSS99ekDyGzyIufl0znw9' WHERE `username` = 'cailly' [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-16T19:09:06+08:00 ] 127.0.0.1 /manage_Index_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0013s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0025s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0007s ]
+SQL: SELECT `withdraw` FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+NOTIC: [2] Use of undefined constant menu_name - assumed 'menu_name' (this will throw an Error in a future version of PHP) C:\work\juhe\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2019-01-16T19:09:06+08:00 ] 127.0.0.1 /manage_Index_main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+SQL: SHOW COLUMNS FROM `pay_admin` [ RunTime:0.0026s ]
+SQL: SELECT `groupid` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pay_websiteconfig` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pay_websiteconfig` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `session_random` FROM `pay_admin` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_member_agent_cate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pay_member_agent_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pay_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT b.rules FROM pay_auth_group_access a LEFT JOIN pay_auth_group b ON b.id=a.group_id  WHERE a.uid = '6'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_auth_rule` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pay_auth_rule` WHERE `id` IN ('1','49','2','3','51','4','57','5','55','56','58','59','6','43','44','52','53','48','70','54','7','8','60','61','62','9','63','64','65','66','10','67','68','69','11','12','79','80','81','82','83','84','85','86','87','88','89','90','91','93','94','95','96','97','98','99','100','101','13','14','15','92','16','73','76','77','78','17','18','19','71','75','20','21','72','74','22','23','24','25','26','46','27','28','108','29','102','30','103','107','104','105','109','110','111','31','32','33','34','35','36','37','38','39','40','41','42','45','47','116','117','118') AND `is_menu` = 1 AND `status` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0046s ]
+SQL: SELECT sum(`pay_amount`) amount,sum(`pay_poundage`) rate,sum(`pay_actualamount`) total FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1547568000 AND 1547654400 LIMIT 1   [ RunTime:0.0267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pay_order` WHERE `pay_status` BETWEEN 1 AND 2 AND `pay_successdate` BETWEEN 1547568000 AND 1547654400 LIMIT 1   [ RunTime:0.0168s ]
+SQL: select COUNT(id) as num,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(FROM_UNIXTIME(pay_successdate,'%Y-%m-%d')) and pay_successdate>=1547032146;  [ RunTime:0.0257s ]
+SQL: select FROM_UNIXTIME(pay_successdate,'%Y年-%m月') AS month,SUM(pay_amount) AS amount,SUM(pay_poundage) AS rate,SUM(pay_actualamount) AS total from pay_order where  1=1 and pay_status>=1 and pay_successdate>=1546272000 GROUP BY month;   [ RunTime:0.0205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+

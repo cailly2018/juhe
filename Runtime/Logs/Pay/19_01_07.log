@@ -1,0 +1,298 @@
+[ 2019-01-07T15:04:58+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005878s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+
+[ 2019-01-07T15:05:26+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+
+[ 2019-01-07T15:05:48+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+
+[ 2019-01-07T15:05:49+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+
+[ 2019-01-07T15:06:48+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`key` FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2019-01-07T15:07:21+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`key` FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-01-07T15:07:28+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`key` FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-07T15:09:57+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002854s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-07T15:10:07+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-07T15:12:22+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003973s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-07T15:12:56+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-07T15:13:56+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-01-07T15:14:07+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 130 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 131 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 132 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 133 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 134 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 135 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 136 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 137 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 138 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 139 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `pay_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pay_order` WHERE `pay_orderid` = '20190107113941100555' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-01-07T18:49:57+08:00 ] 127.0.0.1 /Pay_JFpaysm_notifyurl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+NOTIC: [8] Undefined index: appid C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 117 行.
+NOTIC: [8] Undefined index: mch_id C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 118 行.
+NOTIC: [8] Undefined index: sign_type C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 119 行.
+NOTIC: [8] Undefined index: sign C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 120 行.
+NOTIC: [8] Undefined index: billno C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 121 行.
+NOTIC: [8] Undefined index: out_trade_no C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 122 行.
+NOTIC: [8] Undefined index: total_fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 123 行.
+NOTIC: [8] Undefined index: fee C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 124 行.
+NOTIC: [8] Undefined index: pay_time C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 125 行.
+NOTIC: [8] Undefined index: trade_status C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 126 行.
+NOTIC: [8] Undefined index: remark C:\work\juhe\Application\Pay\Controller\JFpaysmController.class.php 第 127 行.
+

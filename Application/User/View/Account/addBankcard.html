@@ -1,0 +1,154 @@
+<include file="Public/header"/>
+<div class="row">
+    <div class="col-md-12">
+        <div class="ibox-content">
+            <form class="layui-form" action="" autocomplete="off" id="bankform">
+                <input type="hidden" name="id" value="<{$_GET['id']}>">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">开户行：</label>
+                    <div class="layui-input-block">
+                        <select name="b[bankname]" lay-filter="" lay-search="" lay-verify="required">
+                            <option value="">选择开户行</option>
+                            <volist name="banklist" id="vobank">
+                                <option <if condition="$b['bankname'] eq $vobank['bankname']">selected</if>
+                                value="<{$vobank.bankname}>"><{$vobank.bankname}></option>
+                            </volist>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">支行名称：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="b[subbranch]" lay-verify="" autocomplete="off" placeholder=""
+                               class="layui-input" value="<{$b.subbranch}>" lay-verify="required">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">开户名：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="b[accountname]" lay-verify="" autocomplete="off" placeholder=""
+                               class="layui-input" value="<{$b.accountname}>" lay-verify="required">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">银行卡号：</label>
+                    <div class="layui-input-block">
+                        <input type="number" name="b[cardnumber]" lay-verify="" autocomplete="off" placeholder=""
+                               class="layui-input" value="<{$b.cardnumber}>" lay-verify="required">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <form class="layui-form">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">所属省：</label>
+                        <div class="layui-input-inline" >
+                            <select name="b[province]" lay-filter="province"  >
+                            <option value="">选择所属省</option>
+                            <volist name="shenglist" id="r">
+                                <option class="sheng" <if condition="$b['province'] eq $r['region_name']">selected</if>
+                                value="<{$r.region_name}>"><{$r.region_name}></option>
+                            </volist>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">所属城市：</label>
+                        <div class="layui-input-inline">
+                            <select name="b[city]" id="citys" lay-filter="city">
+                                <option  value="">选择所属城市</option>
+                                <volist name="reglist" id="r">
+                                    <option class="sheng" <if condition="$b['city'] eq $r['region_name']">selected</if>
+                                    value="<{$r.region_name}>"><{$r.region_name}></option>
+                                </volist>
+                            </select>
+
+                        </div>
+                    </div>
+                        </form>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">别名：</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="b[alias]" lay-verify="" autocomplete="off" placeholder=""
+                               class="layui-input" value="<{$b.alias}>">
+                    </div>
+                </div>
+                <include file="Public/send"/>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit="" lay-filter="save">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<include file="Public/footer"/>
+<script  type="text/javascript">
+    layui.use(['laydate', 'form', 'layer', 'table', 'element'], function() {
+        var laydate = layui.laydate //日期
+            , form = layui.form //分页
+            , layer = layui.layer //弹层
+            , table = layui.table //表格
+            , element = layui.element; //元素操作
+        //监听提交
+        form.on('submit(save)', function(data){
+            $.ajax({
+                url:"<{:U('Account/addBankcard')}>",
+                type:"post",
+                data:$('#bankform').serialize(),
+                success:function(res){
+                    if(res.status){
+                        layer.alert("编辑成功", {icon: 6},function () {
+                            parent.location.reload();
+                            var index = parent.layer.getFrameIndex(window.name);
+                            parent.layer.close(index);
+                        });
+                    }else{
+                        layer.alert("操作失败", {icon: 5},function () {
+                            parent.location.reload();
+                            var index = parent.layer.getFrameIndex(window.name);
+                            parent.layer.close(index);
+                        });
+                    }
+                }
+            });
+            return false;
+        });
+        var form = layui.form;
+        form.on('select(province)', function(data){
+            var areaId=data.elem.value;
+
+            $.ajax({
+                type: 'POST',
+                url: "<{:U('Account/getcode')}>",
+                data: {areaId:areaId},
+                dataType:  'json',
+                success:function(e){
+                    console.log(e.data);
+                    //empty() 方法从被选元素移除所有内容
+                    $("select[name='b[city]']").empty();
+                    var html = "<option value=''>选择所属城市</option>";
+                    $(e.data).each(function (v, k) {
+                        html += "<option value='" + k.region_name + "'>" + k.region_name + "</option>";
+                    });
+                    //把遍历的数据放到select表里面
+                    $("select[name='b[city]']").append(html);
+                    //从新刷新了一下下拉框
+                    form.render('select');      //重新渲染
+                }
+            });
+        });
+
+
+
+    });
+
+
+</script>
+
+
+
+</body>
+</html>

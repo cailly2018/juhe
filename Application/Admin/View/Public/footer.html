@@ -1,0 +1,28 @@
+</div>
+<audio style="display: none" id="bgMusic" src="/web/tixing.mp3"></audio>
+<script src="/Public/Front/js/jquery.min.js"></script>
+<script src="/Public/Front/js/bootstrap.min.js"></script>
+<script src="/Public/Front/js/plugins/peity/jquery.peity.min.js"></script>
+<script src="/Public/Front/js/content.js"></script>
+<script src="/Public/Front/js/plugins/layui/layui.js" charset="utf-8"></script>
+<script src="/Public/Front/js/x-layui.js" charset="utf-8"></script>
+
+<script>
+    //setInterval("test()",5000);
+    var myAuto = document.getElementById('bgMusic');
+    function test() {
+        $.ajax({
+            type: "POST",
+            url: "<{:U('Withdrawal/tixing')}>",
+            async: true,
+            data: "op=getdata",
+            success: function(data, textStatus) {
+                if(data.status>0){
+                   // myAuto.play();
+                }else{
+                   // myAuto.pause();
+                }
+            }
+        });
+    }
+</script>
